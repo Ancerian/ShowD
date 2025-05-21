@@ -29,7 +29,7 @@ def drone_backward():
 
 
 def start_server():
-    app.run(host="localhost", port=5000, debug=True, use_reloader=False)
+    app.run(host="0.0.0.0", port=5000, debug=True, use_reloader=False)
 
 
 if __name__ == "__main__":

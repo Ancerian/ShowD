@@ -5,39 +5,48 @@
 		<node id="1" name="Image Viewer" qualified_name="orangecontrib.imageanalytics.widgets.owimageviewer.OWImageViewer" project_name="Orange3-ImageAnalytics" version="" title="Image Viewer" position="(289.0, 80.0)" />
 		<node id="2" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="MediaPipe" position="(349.0, 258.0)" />
 		<node id="3" name="Import Images" qualified_name="orangecontrib.imageanalytics.widgets.owimageimport.OWImportImages" project_name="Orange3-ImageAnalytics" version="" title="test images" position="(146.0, 458.0)" />
-		<node id="4" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns (1)" position="(546.0, 457.0)" />
-		<node id="5" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score" position="(975.0, 263.0)" />
-		<node id="6" name="Confusion Matrix" qualified_name="Orange.widgets.evaluate.owconfusionmatrix.OWConfusionMatrix" project_name="Orange3" version="" title="Confusion Matrix" position="(1195.0, 263.0)" />
-		<node id="7" name="SVM" qualified_name="Orange.widgets.model.owsvm.OWSVM" project_name="Orange3" version="" title="SVM" position="(734.0, -153.0)" />
-		<node id="8" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(555.0, 335.0)" />
-		<node id="9" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="MediaPipe" position="(343.0, 457.0)" />
-		<node id="10" name="Save Model" qualified_name="Orange.widgets.model.owsavemodel.OWSaveModel" project_name="Orange3" version="" title="Save Model" position="(1065.0, -61.0)" />
-		<node id="11" name="Neural Network" qualified_name="Orange.widgets.model.owneuralnetwork.OWNNLearner" project_name="Orange3" version="" title="Neural Network" position="(736.0, -53.0)" />
-		<node id="12" name="Random Forest" qualified_name="Orange.widgets.model.owrandomforest.OWRandomForest" project_name="Orange3" version="" title="Random Forest" position="(738.0, 51.0)" />
-		<node id="13" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (1)" position="(546.0, 565.0)" />
-		<node id="14" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Select Rows" position="(453.0, 258.0)" />
-		<node id="15" name="Gradient Boosting" qualified_name="Orange.widgets.model.owgradientboosting.OWGradientBoosting" project_name="Orange3" version="" title="Gradient Boosting" position="(741.0, 140.0)" />
+		<node id="4" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score" position="(975.0, 263.0)" />
+		<node id="5" name="Confusion Matrix" qualified_name="Orange.widgets.evaluate.owconfusionmatrix.OWConfusionMatrix" project_name="Orange3" version="" title="Confusion Matrix" position="(1195.0, 263.0)" />
+		<node id="6" name="SVM" qualified_name="Orange.widgets.model.owsvm.OWSVM" project_name="Orange3" version="" title="SVM" position="(788.0, -277.0)" />
+		<node id="7" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(555.0, 335.0)" />
+		<node id="8" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="MediaPipe" position="(343.0, 457.0)" />
+		<node id="9" name="Save Model" qualified_name="Orange.widgets.model.owsavemodel.OWSaveModel" project_name="Orange3" version="" title="Save Model" position="(1063.0, -62.0)" />
+		<node id="10" name="Neural Network" qualified_name="Orange.widgets.model.owneuralnetwork.OWNNLearner" project_name="Orange3" version="" title="Neural Network" position="(790.0, -177.0)" />
+		<node id="11" name="Random Forest" qualified_name="Orange.widgets.model.owrandomforest.OWRandomForest" project_name="Orange3" version="" title="Random Forest" position="(792.0, -73.0)" />
+		<node id="12" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (1)" position="(546.0, 565.0)" />
+		<node id="13" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Select Rows" position="(453.0, 258.0)" />
+		<node id="14" name="Gradient Boosting" qualified_name="Orange.widgets.model.owgradientboosting.OWGradientBoosting" project_name="Orange3" version="" title="Gradient Boosting" position="(795.0, 16.0)" />
+		<node id="15" name="Image Viewer" qualified_name="orangecontrib.imageanalytics.widgets.owimageviewer.OWImageViewer" project_name="Orange3-ImageAnalytics" version="" title="Image Viewer (1)" position="(1369.0, 262.0)" />
+		<node id="16" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns" position="(388.0, -36.0)" />
+		<node id="17" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns (1)" position="(583.0, 443.0)" />
+		<node id="18" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (2)" position="(463.0, -222.0)" />
+		<node id="19" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Python Script" position="(478.0, -38.0)" />
+		<node id="20" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Python Script (1)" position="(710.0, 459.0)" />
 	</nodes>
 	<links>
 		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
 		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
-		<link id="2" source_node_id="5" sink_node_id="6" source_channel="Evaluation Results" sink_channel="Evaluation Results" enabled="true" source_channel_id="evaluations_results" sink_channel_id="evaluation_results" />
-		<link id="3" source_node_id="7" sink_node_id="5" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
-		<link id="4" source_node_id="3" sink_node_id="9" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
-		<link id="5" source_node_id="9" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
-		<link id="6" source_node_id="4" sink_node_id="5" source_channel="Data" sink_channel="Test Data" enabled="true" source_channel_id="data" sink_channel_id="test_data" />
-		<link id="7" source_node_id="11" sink_node_id="5" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
-		<link id="8" source_node_id="12" sink_node_id="5" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
-		<link id="9" source_node_id="9" sink_node_id="13" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
-		<link id="10" source_node_id="2" sink_node_id="14" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
-		<link id="11" source_node_id="14" sink_node_id="8" source_channel="Matching Data" sink_channel="Data" enabled="true" source_channel_id="matching_data" sink_channel_id="data" />
-		<link id="12" source_node_id="14" sink_node_id="5" source_channel="Matching Data" sink_channel="Data" enabled="true" source_channel_id="matching_data" sink_channel_id="train_data" />
-		<link id="13" source_node_id="14" sink_node_id="7" source_channel="Matching Data" sink_channel="Data" enabled="true" source_channel_id="matching_data" sink_channel_id="data" />
-		<link id="14" source_node_id="14" sink_node_id="11" source_channel="Matching Data" sink_channel="Data" enabled="true" source_channel_id="matching_data" sink_channel_id="data" />
-		<link id="15" source_node_id="14" sink_node_id="12" source_channel="Matching Data" sink_channel="Data" enabled="true" source_channel_id="matching_data" sink_channel_id="data" />
-		<link id="16" source_node_id="14" sink_node_id="15" source_channel="Matching Data" sink_channel="Data" enabled="true" source_channel_id="matching_data" sink_channel_id="data" />
-		<link id="17" source_node_id="15" sink_node_id="5" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
-		<link id="18" source_node_id="15" sink_node_id="10" source_channel="Model" sink_channel="Model" enabled="true" source_channel_id="model" sink_channel_id="model" />
+		<link id="2" source_node_id="4" sink_node_id="5" source_channel="Evaluation Results" sink_channel="Evaluation Results" enabled="true" source_channel_id="evaluations_results" sink_channel_id="evaluation_results" />
+		<link id="3" source_node_id="6" sink_node_id="4" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="4" source_node_id="3" sink_node_id="8" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="5" source_node_id="10" sink_node_id="4" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="6" source_node_id="11" sink_node_id="4" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="7" source_node_id="8" sink_node_id="12" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="8" source_node_id="2" sink_node_id="13" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="9" source_node_id="13" sink_node_id="7" source_channel="Matching Data" sink_channel="Data" enabled="true" source_channel_id="matching_data" sink_channel_id="data" />
+		<link id="10" source_node_id="14" sink_node_id="4" source_channel="Learner" sink_channel="Learner" enabled="true" source_channel_id="learner" sink_channel_id="learner" />
+		<link id="11" source_node_id="5" sink_node_id="15" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
+		<link id="12" source_node_id="13" sink_node_id="16" source_channel="Matching Data" sink_channel="Data" enabled="true" source_channel_id="matching_data" sink_channel_id="data" />
+		<link id="13" source_node_id="8" sink_node_id="17" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="14" source_node_id="16" sink_node_id="19" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="15" source_node_id="19" sink_node_id="6" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="16" source_node_id="19" sink_node_id="10" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="17" source_node_id="19" sink_node_id="11" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="18" source_node_id="19" sink_node_id="14" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="19" source_node_id="17" sink_node_id="20" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="20" source_node_id="20" sink_node_id="4" source_channel="Data" sink_channel="Test Data" enabled="true" source_channel_id="data" sink_channel_id="test_data" />
+		<link id="21" source_node_id="19" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="train_data" />
+		<link id="22" source_node_id="14" sink_node_id="9" source_channel="Model" sink_channel="Model" enabled="true" source_channel_id="model" sink_channel_id="model" />
 	</links>
 	<annotations />
 	<thumbnail />
@@ -51,251 +60,307 @@ AARmAAACSAAAAxoAAAHHAAAEZgAAAkgAAAAAAAAAAAeAAAADGgAAAccAAARmAAACSJSMC19fdmVy
 c2lvbl9flEsBdS4=
 </properties>
 		<properties node_id="1" format="pickle">gASVywEAAAAAAAB9lCiMCmF1dG9Db21taXSUiIwSY29udHJvbEFyZWFWaXNpYmxllIiMCWltYWdl
-U2l6ZZRLZIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAAAAAAAABcAAAd/AAAEDwAA
+U2l6ZZRLZIwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAA//////////gAAAeAAAAEEAAA
 AAAAAAAXAAAHfwAABA8AAAAAAgAAAAeAAAAAAAAAABcAAAd/AAAED5SMC19fdmVyc2lvbl9flEsC
 jBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOU
 KYGUfZQojAZ2YWx1ZXOUfZQojAppbWFnZV9hdHRylIwFaW1hZ2WUS2eGlIwOc2VsZWN0ZWRfaXRl
-bXOUj5QojCJkb3duL1dJTl8yMDI1MDUyMl8xNF8xMV8wMF9Qcm8uanBnlJBK/v///4aUjAp0aXRs
+bXOUj5QojCJkb3duL1dJTl8yMDI1MDUyMl8xNF8xMF81NF9Qcm8uanBnlJBK/v///4aUjAp0aXRs
 ZV9hdHRylIwIY2F0ZWdvcnmUS2WGlGgGSwJ1jAphdHRyaWJ1dGVzlH2UjAhjYXRlZ29yeZRLAXOM
 BW1ldGFzlH2UKIwKaW1hZ2UgbmFtZZRLA4wFaW1hZ2WUSwOMBHNpemWUSwKMBXdpZHRolEsCjAZo
 ZWlnaHSUSwJ1dWJhdS4=
 </properties>
-		<properties node_id="2" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01=\x00\x00\x00\xf5\x00\x00\x04]\x00\x00\x03L\x00\x00\x01=\x00\x00\x00\xf5\x00\x00\x04]\x00\x00\x03L\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01=\x00\x00\x00\xf5\x00\x00\x04]\x00\x00\x03L', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\nprint(in_data)\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}, {'name': 'mediapipe_pose', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\nimport mediapipe as mp\nimport cv2\n\n\nstaticImageMode=False\nmodelComplexity=1\nsmoothLandmarks=True\nenableSegmentation=False\nsmoothSegmentation=True\nminDetectionConfidence=0.5\nminTrackingConfidence=0.5\n\nmpPose = mp.solutions.pose\npose = mpPose.Pose(staticImageMode, modelComplexity, smoothLandmarks, enableSegmentation, smoothSegmentation, minDetectionConfidence, minTrackingConfidence)\n\n#print(in_data)\n\noutput = []\n\norigin = in_data.domain["image"].attributes["origin"]\n\nfor img in in_data:\n    image = cv2.imread(origin + "/" + img["image"].value)\n    imgRGB = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)\n    results = pose.process(imgRGB)\n    out_img = []\n    \n    if results.pose_landmarks:\n        for landmark in results.pose_landmarks.landmark:\n            out_img.append(landmark.x)\n            out_img.append(landmark.y)\n    else:\n        out_img = [-1.0 for i in range(66)]\n    output.append(out_img)\n\noutput_arr = np.array(output)\n\ndomain = Domain([\n    ContinuousVariable("0 - nose x"),\n    ContinuousVariable("0 - nose y"),\n    ContinuousVariable("1 - left eye (inner) x"),\n    ContinuousVariable("1 - left eye (inner) y"),\n    ContinuousVariable("2 - left eye x"),\n    ContinuousVariable("2 - left eye y"),\n    ContinuousVariable("3 - left eye (outer) x"),\n    ContinuousVariable("3 - left eye (outer) y"),\n    ContinuousVariable("4 - right eye (inner) x"),\n    ContinuousVariable("4 - right eye (inner) y"),\n    ContinuousVariable("5 - right eye x"),\n    ContinuousVariable("5 - right eye y"),\n    ContinuousVariable("6 - right eye (outer) x"),\n    ContinuousVariable("6 - right eye (outer) y"),\n    ContinuousVariable("7 - left ear x"),\n    ContinuousVariable("7 - left ear y"),\n    ContinuousVariable("8 - right ear x"),\n    ContinuousVariable("8 - right ear y"),\n    ContinuousVariable("9 - mouth (left) x"),\n    ContinuousVariable("9 - mouth (left) y"),\n    ContinuousVariable("10 - mouth (right) x"),\n    ContinuousVariable("10 - mouth (right) y"),\n    ContinuousVariable("11 - left shoulder x"),\n    ContinuousVariable("11 - left shoulder y"),\n    ContinuousVariable("12 - right shoulder x"),\n    ContinuousVariable("12 - right shoulder y"),\n    ContinuousVariable("13 - left elbow x"),\n    ContinuousVariable("13 - left elbow y"),\n    ContinuousVariable("14 - right elbow x"),\n    ContinuousVariable("14 - right elbow y"),\n    ContinuousVariable("15 - left wrist x"),\n    ContinuousVariable("15 - left wrist y"),\n    ContinuousVariable("16 - right wrist x"),\n    ContinuousVariable("16 - right wrist y"),\n    ContinuousVariable("17 - left pinky x"),\n    ContinuousVariable("17 - left pinky y"),\n    ContinuousVariable("18 - right pinky x"),\n    ContinuousVariable("18 - right pinky y"),\n    ContinuousVariable("19 - left index x"),\n    ContinuousVariable("19 - left index y"),\n    ContinuousVariable("20 - right index x"),\n    ContinuousVariable("20 - right index y"),\n    ContinuousVariable("21 - left thumb x"),\n    ContinuousVariable("21 - left thumb y"),\n    ContinuousVariable("22 - right thumb x"),\n    ContinuousVariable("22 - right thumb y"),\n    ContinuousVariable("23 - left hip x"),\n    ContinuousVariable("23 - left hip y"),\n    ContinuousVariable("24 - right hip x"),\n    ContinuousVariable("24 - right hip y"),\n    ContinuousVariable("25 - left knee x"),\n    ContinuousVariable("25 - left knee y"),\n    ContinuousVariable("26 - right knee x"),\n    ContinuousVariable("26 - right knee y"),\n    ContinuousVariable("27 - left ankle x"),\n    ContinuousVariable("27 - left ankle y"),\n    ContinuousVariable("28 - right ankle x"),\n    ContinuousVariable("28 - right ankle y"),\n    ContinuousVariable("29 - left heel x"),\n    ContinuousVariable("29 - left heel y"),\n    ContinuousVariable("30 - right heel x"),\n    ContinuousVariable("30 - right heel y"),\n    ContinuousVariable("31 - left foot index x"),\n    ContinuousVariable("31 - left foot index y"),\n    ContinuousVariable("32 - right foot index x"),\n    ContinuousVariable("32 - right foot index y"),\n], class_vars=in_data.domain.class_vars, metas=in_data.domain.metas)\n\nout_data = Table.from_numpy(domain, output_arr, Y=in_data.Y, metas=in_data.metas)\n', 'filename': None}], 'scriptText': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\nimport mediapipe as mp\nimport cv2\n\n\nstaticImageMode=False\nmodelComplexity=1\nsmoothLandmarks=True\nenableSegmentation=False\nsmoothSegmentation=True\nminDetectionConfidence=0.5\nminTrackingConfidence=0.5\n\nmpPose = mp.solutions.pose\npose = mpPose.Pose(staticImageMode, modelComplexity, smoothLandmarks, enableSegmentation, smoothSegmentation, minDetectionConfidence, minTrackingConfidence)\n\n#print(in_data)\n\noutput = []\n\norigin = in_data.domain["image"].attributes["origin"]\n\nfor img in in_data:\n    image = cv2.imread(origin + "/" + img["image"].value)\n    imgRGB = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)\n    results = pose.process(imgRGB)\n    out_img = []\n    \n    if results.pose_landmarks:\n        for landmark in results.pose_landmarks.landmark:\n            out_img.append(landmark.x)\n            out_img.append(landmark.y)\n    else:\n        out_img = [-1.0 for i in range(66)]\n    output.append(out_img)\n\noutput_arr = np.array(output)\n\ndomain = Domain([\n    ContinuousVariable("0 - nose x"),\n    ContinuousVariable("0 - nose y"),\n    ContinuousVariable("1 - left eye (inner) x"),\n    ContinuousVariable("1 - left eye (inner) y"),\n    ContinuousVariable("2 - left eye x"),\n    ContinuousVariable("2 - left eye y"),\n    ContinuousVariable("3 - left eye (outer) x"),\n    ContinuousVariable("3 - left eye (outer) y"),\n    ContinuousVariable("4 - right eye (inner) x"),\n    ContinuousVariable("4 - right eye (inner) y"),\n    ContinuousVariable("5 - right eye x"),\n    ContinuousVariable("5 - right eye y"),\n    ContinuousVariable("6 - right eye (outer) x"),\n    ContinuousVariable("6 - right eye (outer) y"),\n    ContinuousVariable("7 - left ear x"),\n    ContinuousVariable("7 - left ear y"),\n    ContinuousVariable("8 - right ear x"),\n    ContinuousVariable("8 - right ear y"),\n    ContinuousVariable("9 - mouth (left) x"),\n    ContinuousVariable("9 - mouth (left) y"),\n    ContinuousVariable("10 - mouth (right) x"),\n    ContinuousVariable("10 - mouth (right) y"),\n    ContinuousVariable("11 - left shoulder x"),\n    ContinuousVariable("11 - left shoulder y"),\n    ContinuousVariable("12 - right shoulder x"),\n    ContinuousVariable("12 - right shoulder y"),\n    ContinuousVariable("13 - left elbow x"),\n    ContinuousVariable("13 - left elbow y"),\n    ContinuousVariable("14 - right elbow x"),\n    ContinuousVariable("14 - right elbow y"),\n    ContinuousVariable("15 - left wrist x"),\n    ContinuousVariable("15 - left wrist y"),\n    ContinuousVariable("16 - right wrist x"),\n    ContinuousVariable("16 - right wrist y"),\n    ContinuousVariable("17 - left pinky x"),\n    ContinuousVariable("17 - left pinky y"),\n    ContinuousVariable("18 - right pinky x"),\n    ContinuousVariable("18 - right pinky y"),\n    ContinuousVariable("19 - left index x"),\n    ContinuousVariable("19 - left index y"),\n    ContinuousVariable("20 - right index x"),\n    ContinuousVariable("20 - right index y"),\n    ContinuousVariable("21 - left thumb x"),\n    ContinuousVariable("21 - left thumb y"),\n    ContinuousVariable("22 - right thumb x"),\n    ContinuousVariable("22 - right thumb y"),\n    ContinuousVariable("23 - left hip x"),\n    ContinuousVariable("23 - left hip y"),\n    ContinuousVariable("24 - right hip x"),\n    ContinuousVariable("24 - right hip y"),\n    ContinuousVariable("25 - left knee x"),\n    ContinuousVariable("25 - left knee y"),\n    ContinuousVariable("26 - right knee x"),\n    ContinuousVariable("26 - right knee y"),\n    ContinuousVariable("27 - left ankle x"),\n    ContinuousVariable("27 - left ankle y"),\n    ContinuousVariable("28 - right ankle x"),\n    ContinuousVariable("28 - right ankle y"),\n    ContinuousVariable("29 - left heel x"),\n    ContinuousVariable("29 - left heel y"),\n    ContinuousVariable("30 - right heel x"),\n    ContinuousVariable("30 - right heel y"),\n    ContinuousVariable("31 - left foot index x"),\n    ContinuousVariable("31 - left foot index y"),\n    ContinuousVariable("32 - right foot index x"),\n    ContinuousVariable("32 - right foot index y"),\n], class_vars=in_data.domain.class_vars, metas=in_data.domain.metas)\n\nout_data = Table.from_numpy(domain, output_arr, Y=in_data.Y, metas=in_data.metas)\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x9f\x00\x00\x00`\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="2" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x07\x7f\x00\x00\x04\x0f\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x07\x7f\x00\x00\x04\x0f\x00\x00\x00\x00\x02\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x07\x7f\x00\x00\x04\x0f', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\nprint(in_data)\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}, {'name': 'mediapipe_pose', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\nimport mediapipe as mp\nimport cv2\n\n\nstaticImageMode=False\nmodelComplexity=1\nsmoothLandmarks=True\nenableSegmentation=False\nsmoothSegmentation=True\nminDetectionConfidence=0.5\nminTrackingConfidence=0.5\n\nmpPose = mp.solutions.pose\npose = mpPose.Pose(staticImageMode, modelComplexity, smoothLandmarks, enableSegmentation, smoothSegmentation, minDetectionConfidence, minTrackingConfidence)\n\n#print(in_data)\n\noutput = []\n\norigin = in_data.domain["image"].attributes["origin"]\n\nfor img in in_data:\n    image = cv2.imread(origin + "/" + img["image"].value)\n    imgRGB = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)\n    results = pose.process(imgRGB)\n    out_img = []\n    \n    if results.pose_landmarks:\n        for landmark in results.pose_landmarks.landmark:\n            out_img.append(landmark.x)\n            out_img.append(landmark.y)\n    else:\n        out_img = [-1.0 for i in range(66)]\n    output.append(out_img)\n\noutput_arr = np.array(output)\n\ndomain = Domain([\n    ContinuousVariable("0 - nose x"),\n    ContinuousVariable("0 - nose y"),\n    ContinuousVariable("1 - left eye (inner) x"),\n    ContinuousVariable("1 - left eye (inner) y"),\n    ContinuousVariable("2 - left eye x"),\n    ContinuousVariable("2 - left eye y"),\n    ContinuousVariable("3 - left eye (outer) x"),\n    ContinuousVariable("3 - left eye (outer) y"),\n    ContinuousVariable("4 - right eye (inner) x"),\n    ContinuousVariable("4 - right eye (inner) y"),\n    ContinuousVariable("5 - right eye x"),\n    ContinuousVariable("5 - right eye y"),\n    ContinuousVariable("6 - right eye (outer) x"),\n    ContinuousVariable("6 - right eye (outer) y"),\n    ContinuousVariable("7 - left ear x"),\n    ContinuousVariable("7 - left ear y"),\n    ContinuousVariable("8 - right ear x"),\n    ContinuousVariable("8 - right ear y"),\n    ContinuousVariable("9 - mouth (left) x"),\n    ContinuousVariable("9 - mouth (left) y"),\n    ContinuousVariable("10 - mouth (right) x"),\n    ContinuousVariable("10 - mouth (right) y"),\n    ContinuousVariable("11 - left shoulder x"),\n    ContinuousVariable("11 - left shoulder y"),\n    ContinuousVariable("12 - right shoulder x"),\n    ContinuousVariable("12 - right shoulder y"),\n    ContinuousVariable("13 - left elbow x"),\n    ContinuousVariable("13 - left elbow y"),\n    ContinuousVariable("14 - right elbow x"),\n    ContinuousVariable("14 - right elbow y"),\n    ContinuousVariable("15 - left wrist x"),\n    ContinuousVariable("15 - left wrist y"),\n    ContinuousVariable("16 - right wrist x"),\n    ContinuousVariable("16 - right wrist y"),\n    ContinuousVariable("17 - left pinky x"),\n    ContinuousVariable("17 - left pinky y"),\n    ContinuousVariable("18 - right pinky x"),\n    ContinuousVariable("18 - right pinky y"),\n    ContinuousVariable("19 - left index x"),\n    ContinuousVariable("19 - left index y"),\n    ContinuousVariable("20 - right index x"),\n    ContinuousVariable("20 - right index y"),\n    ContinuousVariable("21 - left thumb x"),\n    ContinuousVariable("21 - left thumb y"),\n    ContinuousVariable("22 - right thumb x"),\n    ContinuousVariable("22 - right thumb y"),\n    ContinuousVariable("23 - left hip x"),\n    ContinuousVariable("23 - left hip y"),\n    ContinuousVariable("24 - right hip x"),\n    ContinuousVariable("24 - right hip y"),\n    ContinuousVariable("25 - left knee x"),\n    ContinuousVariable("25 - left knee y"),\n    ContinuousVariable("26 - right knee x"),\n    ContinuousVariable("26 - right knee y"),\n    ContinuousVariable("27 - left ankle x"),\n    ContinuousVariable("27 - left ankle y"),\n    ContinuousVariable("28 - right ankle x"),\n    ContinuousVariable("28 - right ankle y"),\n    ContinuousVariable("29 - left heel x"),\n    ContinuousVariable("29 - left heel y"),\n    ContinuousVariable("30 - right heel x"),\n    ContinuousVariable("30 - right heel y"),\n    ContinuousVariable("31 - left foot index x"),\n    ContinuousVariable("31 - left foot index y"),\n    ContinuousVariable("32 - right foot index x"),\n    ContinuousVariable("32 - right foot index y"),\n], class_vars=in_data.domain.class_vars, metas=in_data.domain.metas)\n\nout_data = Table.from_numpy(domain, output_arr, Y=in_data.Y, metas=in_data.metas)\n', 'filename': None}], 'scriptText': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\nimport mediapipe as mp\nimport cv2\n\n\nstaticImageMode=False\nmodelComplexity=1\nsmoothLandmarks=True\nenableSegmentation=False\nsmoothSegmentation=True\nminDetectionConfidence=0.5\nminTrackingConfidence=0.5\n\nmpPose = mp.solutions.pose\npose = mpPose.Pose(staticImageMode, modelComplexity, smoothLandmarks, enableSegmentation, smoothSegmentation, minDetectionConfidence, minTrackingConfidence)\n\n#print(in_data)\n\noutput = []\n\norigin = in_data.domain["image"].attributes["origin"]\n\nfor img in in_data:\n    image = cv2.imread(origin + "/" + img["image"].value)\n    imgRGB = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)\n    results = pose.process(imgRGB)\n    out_img = []\n    \n    if results.pose_landmarks:\n        for landmark in results.pose_landmarks.landmark:\n            out_img.append(landmark.x)\n            out_img.append(landmark.y)\n    else:\n        out_img = [-1.0 for i in range(66)]\n    output.append(out_img)\n\noutput_arr = np.array(output)\n\ndomain = Domain([\n    ContinuousVariable("0 - nose x"),\n    ContinuousVariable("0 - nose y"),\n    ContinuousVariable("1 - left eye (inner) x"),\n    ContinuousVariable("1 - left eye (inner) y"),\n    ContinuousVariable("2 - left eye x"),\n    ContinuousVariable("2 - left eye y"),\n    ContinuousVariable("3 - left eye (outer) x"),\n    ContinuousVariable("3 - left eye (outer) y"),\n    ContinuousVariable("4 - right eye (inner) x"),\n    ContinuousVariable("4 - right eye (inner) y"),\n    ContinuousVariable("5 - right eye x"),\n    ContinuousVariable("5 - right eye y"),\n    ContinuousVariable("6 - right eye (outer) x"),\n    ContinuousVariable("6 - right eye (outer) y"),\n    ContinuousVariable("7 - left ear x"),\n    ContinuousVariable("7 - left ear y"),\n    ContinuousVariable("8 - right ear x"),\n    ContinuousVariable("8 - right ear y"),\n    ContinuousVariable("9 - mouth (left) x"),\n    ContinuousVariable("9 - mouth (left) y"),\n    ContinuousVariable("10 - mouth (right) x"),\n    ContinuousVariable("10 - mouth (right) y"),\n    ContinuousVariable("11 - left shoulder x"),\n    ContinuousVariable("11 - left shoulder y"),\n    ContinuousVariable("12 - right shoulder x"),\n    ContinuousVariable("12 - right shoulder y"),\n    ContinuousVariable("13 - left elbow x"),\n    ContinuousVariable("13 - left elbow y"),\n    ContinuousVariable("14 - right elbow x"),\n    ContinuousVariable("14 - right elbow y"),\n    ContinuousVariable("15 - left wrist x"),\n    ContinuousVariable("15 - left wrist y"),\n    ContinuousVariable("16 - right wrist x"),\n    ContinuousVariable("16 - right wrist y"),\n    ContinuousVariable("17 - left pinky x"),\n    ContinuousVariable("17 - left pinky y"),\n    ContinuousVariable("18 - right pinky x"),\n    ContinuousVariable("18 - right pinky y"),\n    ContinuousVariable("19 - left index x"),\n    ContinuousVariable("19 - left index y"),\n    ContinuousVariable("20 - right index x"),\n    ContinuousVariable("20 - right index y"),\n    ContinuousVariable("21 - left thumb x"),\n    ContinuousVariable("21 - left thumb y"),\n    ContinuousVariable("22 - right thumb x"),\n    ContinuousVariable("22 - right thumb y"),\n    ContinuousVariable("23 - left hip x"),\n    ContinuousVariable("23 - left hip y"),\n    ContinuousVariable("24 - right hip x"),\n    ContinuousVariable("24 - right hip y"),\n    ContinuousVariable("25 - left knee x"),\n    ContinuousVariable("25 - left knee y"),\n    ContinuousVariable("26 - right knee x"),\n    ContinuousVariable("26 - right knee y"),\n    ContinuousVariable("27 - left ankle x"),\n    ContinuousVariable("27 - left ankle y"),\n    ContinuousVariable("28 - right ankle x"),\n    ContinuousVariable("28 - right ankle y"),\n    ContinuousVariable("29 - left heel x"),\n    ContinuousVariable("29 - left heel y"),\n    ContinuousVariable("30 - right heel x"),\n    ContinuousVariable("30 - right heel y"),\n    ContinuousVariable("31 - left foot index x"),\n    ContinuousVariable("31 - left foot index y"),\n    ContinuousVariable("32 - right foot index x"),\n    ContinuousVariable("32 - right foot index y"),\n], class_vars=in_data.domain.class_vars, metas=in_data.domain.metas)\n\nout_data = Table.from_numpy(domain, output_arr, Y=in_data.Y, metas=in_data.metas)\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x03:\x00\x00\x00\x97\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
 		<properties node_id="3" format="pickle">gASVVgEAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZSMHm9y
 YW5nZXdpZGdldC51dGlscy5maWxlZGlhbG9nc5SMClJlY2VudFBhdGiUk5QpgZR9lCiMB2Fic3Bh
 dGiUjDFDOi9Vc2Vycy9yLnJhZGVyL0RvY3VtZW50cy9teV9wcm9qZWN0Mi9haS9tcC90ZXN0lIwG
 cHJlZml4lIwHYmFzZWRpcpSMB3JlbHBhdGiUjAR0ZXN0lIwFdGl0bGWUjACUjAVzaGVldJRoEIwL
-ZmlsZV9mb3JtYXSUTnViYYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAADGgAAAccA
-AARmAAACSAAAAxoAAAHHAAAEZgAAAkgAAAAAAAAAAAeAAAADGgAAAccAAARmAAACSJSMC19fdmVy
+ZmlsZV9mb3JtYXSUTnViYYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAADGQAAAagA
+AARnAAACSQAAAxoAAAHHAAAEZgAAAkgAAAAAAAAAAAeAAAADGgAAAccAAARmAAACSJSMC19fdmVy
 c2lvbl9flEsBdS4=
 </properties>
-		<properties node_id="4" format="pickle">gASVkxsAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
-cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAApQAAADc
-AAAE6wAAAzMAAAKUAAAA3AAABOsAAAMzAAAAAAAAAAAHgAAAApQAAADcAAAE6wAAAzOUjBJ1c2Vf
-aW5wdXRfZmVhdHVyZXOUiYwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZQojBVv
-cmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojBFkb21h
-aW5fcm9sZV9oaW50c5R9lCiMCjAgLSBub3NlIHiUSwKGlIwJYXR0cmlidXRllEsAhpSMCjAgLSBu
-b3NlIHmUSwKGlGgVSwGGlIwWMSAtIGxlZnQgZXllIChpbm5lcikgeJRLAoaUaBVLAoaUjBYxIC0g
-bGVmdCBleWUgKGlubmVyKSB5lEsChpRoFUsDhpSMDjIgLSBsZWZ0IGV5ZSB4lEsChpRoFUsEhpSM
-DjIgLSBsZWZ0IGV5ZSB5lEsChpRoFUsFhpSMFjMgLSBsZWZ0IGV5ZSAob3V0ZXIpIHiUSwKGlGgV
-SwaGlIwWMyAtIGxlZnQgZXllIChvdXRlcikgeZRLAoaUaBVLB4aUjBc0IC0gcmlnaHQgZXllIChp
-bm5lcikgeJRLAoaUaBVLCIaUjBc0IC0gcmlnaHQgZXllIChpbm5lcikgeZRLAoaUaBVLCYaUjA81
-IC0gcmlnaHQgZXllIHiUSwKGlGgVSwqGlIwPNSAtIHJpZ2h0IGV5ZSB5lEsChpRoFUsLhpSMFzYg
-LSByaWdodCBleWUgKG91dGVyKSB4lEsChpRoFUsMhpSMFzYgLSByaWdodCBleWUgKG91dGVyKSB5
-lEsChpRoFUsNhpSMDjcgLSBsZWZ0IGVhciB4lEsChpRoFUsOhpSMDjcgLSBsZWZ0IGVhciB5lEsC
-hpRoFUsPhpSMDzggLSByaWdodCBlYXIgeJRLAoaUaBVLEIaUjA84IC0gcmlnaHQgZWFyIHmUSwKG
-lGgVSxGGlIwSOSAtIG1vdXRoIChsZWZ0KSB4lEsChpRoFUsShpSMEjkgLSBtb3V0aCAobGVmdCkg
-eZRLAoaUaBVLE4aUjBQxMCAtIG1vdXRoIChyaWdodCkgeJRLAoaUaBVLFIaUjBQxMCAtIG1vdXRo
-IChyaWdodCkgeZRLAoaUaBVLFYaUjBQxMSAtIGxlZnQgc2hvdWxkZXIgeJRLAoaUaBVLFoaUjBQx
-MSAtIGxlZnQgc2hvdWxkZXIgeZRLAoaUaBVLF4aUjBUxMiAtIHJpZ2h0IHNob3VsZGVyIHiUSwKG
-lGgVSxiGlIwVMTIgLSByaWdodCBzaG91bGRlciB5lEsChpRoFUsZhpSMETEzIC0gbGVmdCBlbGJv
-dyB4lEsChpRoFUsahpSMETEzIC0gbGVmdCBlbGJvdyB5lEsChpRoFUsbhpSMEjE0IC0gcmlnaHQg
-ZWxib3cgeJRLAoaUaBVLHIaUjBIxNCAtIHJpZ2h0IGVsYm93IHmUSwKGlGgVSx2GlIwRMTUgLSBs
-ZWZ0IHdyaXN0IHiUSwKGlGgVSx6GlIwRMTUgLSBsZWZ0IHdyaXN0IHmUSwKGlGgVSx+GlIwSMTYg
-LSByaWdodCB3cmlzdCB4lEsChpRoFUsghpSMEjE2IC0gcmlnaHQgd3Jpc3QgeZRLAoaUaBVLIYaU
-jBExNyAtIGxlZnQgcGlua3kgeJRLAoaUaBVLIoaUjBExNyAtIGxlZnQgcGlua3kgeZRLAoaUaBVL
-I4aUjBIxOCAtIHJpZ2h0IHBpbmt5IHiUSwKGlGgVSySGlIwSMTggLSByaWdodCBwaW5reSB5lEsC
-hpRoFUslhpSMETE5IC0gbGVmdCBpbmRleCB4lEsChpRoFUsmhpSMETE5IC0gbGVmdCBpbmRleCB5
-lEsChpRoFUsnhpSMEjIwIC0gcmlnaHQgaW5kZXggeJRLAoaUaBVLKIaUjBIyMCAtIHJpZ2h0IGlu
-ZGV4IHmUSwKGlGgVSymGlIwRMjEgLSBsZWZ0IHRodW1iIHiUSwKGlGgVSyqGlIwRMjEgLSBsZWZ0
-IHRodW1iIHmUSwKGlGgVSyuGlIwSMjIgLSByaWdodCB0aHVtYiB4lEsChpRoFUsshpSMEjIyIC0g
-cmlnaHQgdGh1bWIgeZRLAoaUaBVLLYaUjA8yMyAtIGxlZnQgaGlwIHiUSwKGlGgVSy6GlIwPMjMg
-LSBsZWZ0IGhpcCB5lEsChpRoFUsvhpSMEDI0IC0gcmlnaHQgaGlwIHiUSwKGlGgVSzCGlIwQMjQg
-LSByaWdodCBoaXAgeZRLAoaUaBVLMYaUjBAyNSAtIGxlZnQga25lZSB4lEsChpRoFUsyhpSMEDI1
-IC0gbGVmdCBrbmVlIHmUSwKGlGgVSzOGlIwRMjYgLSByaWdodCBrbmVlIHiUSwKGlGgVSzSGlIwR
-MjYgLSByaWdodCBrbmVlIHmUSwKGlGgVSzWGlIwRMjcgLSBsZWZ0IGFua2xlIHiUSwKGlGgVSzaG
-lIwRMjcgLSBsZWZ0IGFua2xlIHmUSwKGlGgVSzeGlIwSMjggLSByaWdodCBhbmtsZSB4lEsChpRo
-FUs4hpSMEjI4IC0gcmlnaHQgYW5rbGUgeZRLAoaUaBVLOYaUjBAyOSAtIGxlZnQgaGVlbCB4lEsC
-hpRoFUs6hpSMEDI5IC0gbGVmdCBoZWVsIHmUSwKGlGgVSzuGlIwRMzAgLSByaWdodCBoZWVsIHiU
-SwKGlGgVSzyGlIwRMzAgLSByaWdodCBoZWVsIHmUSwKGlGgVSz2GlIwWMzEgLSBsZWZ0IGZvb3Qg
-aW5kZXggeJRLAoaUaBVLPoaUjBYzMSAtIGxlZnQgZm9vdCBpbmRleCB5lEsChpRoFUs/hpSMFzMy
-IC0gcmlnaHQgZm9vdCBpbmRleCB4lEsChpRoFUtAhpSMFzMyIC0gcmlnaHQgZm9vdCBpbmRleCB5
-lEsChpRoFUtBhpSMCGNhdGVnb3J5lEsBhpSMBWNsYXNzlEsAhpSMCmltYWdlIG5hbWWUSwOGlIwE
-bWV0YZRLAIaUjAVpbWFnZZRLA4aUaOBLAYaUjARzaXpllEsChpRo4EsChpSMBXdpZHRolEsChpRo
-4EsDhpSMBmhlaWdodJRLAoaUaOBLBIaUdUr+////hpRoB0sBdYwKYXR0cmlidXRlc5R9lCiMCjAg
-LSBub3NlIHiUSwKMCjAgLSBub3NlIHmUSwKMFjEgLSBsZWZ0IGV5ZSAoaW5uZXIpIHiUSwKMFjEg
-LSBsZWZ0IGV5ZSAoaW5uZXIpIHmUSwKMDjIgLSBsZWZ0IGV5ZSB4lEsCjA4yIC0gbGVmdCBleWUg
-eZRLAowWMyAtIGxlZnQgZXllIChvdXRlcikgeJRLAowWMyAtIGxlZnQgZXllIChvdXRlcikgeZRL
-AowXNCAtIHJpZ2h0IGV5ZSAoaW5uZXIpIHiUSwKMFzQgLSByaWdodCBleWUgKGlubmVyKSB5lEsC
-jA81IC0gcmlnaHQgZXllIHiUSwKMDzUgLSByaWdodCBleWUgeZRLAowXNiAtIHJpZ2h0IGV5ZSAo
-b3V0ZXIpIHiUSwKMFzYgLSByaWdodCBleWUgKG91dGVyKSB5lEsCjA43IC0gbGVmdCBlYXIgeJRL
-AowONyAtIGxlZnQgZWFyIHmUSwKMDzggLSByaWdodCBlYXIgeJRLAowPOCAtIHJpZ2h0IGVhciB5
-lEsCjBI5IC0gbW91dGggKGxlZnQpIHiUSwKMEjkgLSBtb3V0aCAobGVmdCkgeZRLAowUMTAgLSBt
-b3V0aCAocmlnaHQpIHiUSwKMFDEwIC0gbW91dGggKHJpZ2h0KSB5lEsCjBQxMSAtIGxlZnQgc2hv
-dWxkZXIgeJRLAowUMTEgLSBsZWZ0IHNob3VsZGVyIHmUSwKMFTEyIC0gcmlnaHQgc2hvdWxkZXIg
-eJRLAowVMTIgLSByaWdodCBzaG91bGRlciB5lEsCjBExMyAtIGxlZnQgZWxib3cgeJRLAowRMTMg
-LSBsZWZ0IGVsYm93IHmUSwKMEjE0IC0gcmlnaHQgZWxib3cgeJRLAowSMTQgLSByaWdodCBlbGJv
-dyB5lEsCjBExNSAtIGxlZnQgd3Jpc3QgeJRLAowRMTUgLSBsZWZ0IHdyaXN0IHmUSwKMEjE2IC0g
-cmlnaHQgd3Jpc3QgeJRLAowSMTYgLSByaWdodCB3cmlzdCB5lEsCjBExNyAtIGxlZnQgcGlua3kg
-eJRLAowRMTcgLSBsZWZ0IHBpbmt5IHmUSwKMEjE4IC0gcmlnaHQgcGlua3kgeJRLAowSMTggLSBy
-aWdodCBwaW5reSB5lEsCjBExOSAtIGxlZnQgaW5kZXggeJRLAowRMTkgLSBsZWZ0IGluZGV4IHmU
-SwKMEjIwIC0gcmlnaHQgaW5kZXggeJRLAowSMjAgLSByaWdodCBpbmRleCB5lEsCjBEyMSAtIGxl
-ZnQgdGh1bWIgeJRLAowRMjEgLSBsZWZ0IHRodW1iIHmUSwKMEjIyIC0gcmlnaHQgdGh1bWIgeJRL
-AowSMjIgLSByaWdodCB0aHVtYiB5lEsCjA8yMyAtIGxlZnQgaGlwIHiUSwKMDzIzIC0gbGVmdCBo
-aXAgeZRLAowQMjQgLSByaWdodCBoaXAgeJRLAowQMjQgLSByaWdodCBoaXAgeZRLAowQMjUgLSBs
-ZWZ0IGtuZWUgeJRLAowQMjUgLSBsZWZ0IGtuZWUgeZRLAowRMjYgLSByaWdodCBrbmVlIHiUSwKM
-ETI2IC0gcmlnaHQga25lZSB5lEsCjBEyNyAtIGxlZnQgYW5rbGUgeJRLAowRMjcgLSBsZWZ0IGFu
-a2xlIHmUSwKMEjI4IC0gcmlnaHQgYW5rbGUgeJRLAowSMjggLSByaWdodCBhbmtsZSB5lEsCjBAy
-OSAtIGxlZnQgaGVlbCB4lEsCjBAyOSAtIGxlZnQgaGVlbCB5lEsCjBEzMCAtIHJpZ2h0IGhlZWwg
-eJRLAowRMzAgLSByaWdodCBoZWVsIHmUSwKMFjMxIC0gbGVmdCBmb290IGluZGV4IHiUSwKMFjMx
-IC0gbGVmdCBmb290IGluZGV4IHmUSwKMFzMyIC0gcmlnaHQgZm9vdCBpbmRleCB4lEsCjBczMiAt
-IHJpZ2h0IGZvb3QgaW5kZXggeZRLAowIY2F0ZWdvcnmUSwF1jAVtZXRhc5R9lCiMCmltYWdlIG5h
-bWWUSwOMBWltYWdllEsDjARzaXpllEsCjAV3aWR0aJRLAowGaGVpZ2h0lEsCdXViaAwpgZR9lCho
-D32UKIwRZG9tYWluX3JvbGVfaGludHOUfZQojAowIC0gbm9zZSB4lEsChpSMCWF0dHJpYnV0ZZRL
-AIaUjAowIC0gbm9zZSB5lEsChpRqQgEAAEsBhpSMFjEgLSBsZWZ0IGV5ZSAoaW5uZXIpIHiUSwKG
-lGpCAQAASwKGlIwWMSAtIGxlZnQgZXllIChpbm5lcikgeZRLAoaUakIBAABLA4aUjA4yIC0gbGVm
-dCBleWUgeJRLAoaUakIBAABLBIaUjA4yIC0gbGVmdCBleWUgeZRLAoaUakIBAABLBYaUjBYzIC0g
-bGVmdCBleWUgKG91dGVyKSB4lEsChpRqQgEAAEsGhpSMFjMgLSBsZWZ0IGV5ZSAob3V0ZXIpIHmU
-SwKGlGpCAQAASweGlIwXNCAtIHJpZ2h0IGV5ZSAoaW5uZXIpIHiUSwKGlGpCAQAASwiGlIwXNCAt
-IHJpZ2h0IGV5ZSAoaW5uZXIpIHmUSwKGlGpCAQAASwmGlIwPNSAtIHJpZ2h0IGV5ZSB4lEsChpRq
-QgEAAEsKhpSMDzUgLSByaWdodCBleWUgeZRLAoaUakIBAABLC4aUjBc2IC0gcmlnaHQgZXllIChv
-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
-dWjvfZQoakABAABLAmpEAQAASwJqRwEAAEsCakoBAABLAmpNAQAASwJqUAEAAEsCalMBAABLAmpW
-AQAASwJqWQEAAEsCalwBAABLAmpfAQAASwJqYgEAAEsCamUBAABLAmpoAQAASwJqawEAAEsCam4B
-AABLAmpxAQAASwJqdAEAAEsCancBAABLAmp6AQAASwJqfQEAAEsCaoABAABLAmqDAQAASwJqhgEA
-AEsCaokBAABLAmqMAQAASwJqjwEAAEsCapIBAABLAmqVAQAASwJqmAEAAEsCapsBAABLAmqeAQAA
-SwJqoQEAAEsCaqQBAABLAmqnAQAASwJqqgEAAEsCaq0BAABLAmqwAQAASwJqswEAAEsCarYBAABL
-Amq5AQAASwJqvAEAAEsCar8BAABLAmrCAQAASwJqxQEAAEsCasgBAABLAmrLAQAASwJqzgEAAEsC
-atEBAABLAmrUAQAASwJq1wEAAEsCatoBAABLAmrdAQAASwJq4AEAAEsCauMBAABLAmrmAQAASwJq
-6QEAAEsCauwBAABLAmrvAQAASwJq8gEAAEsCavUBAABLAmr4AQAASwJq+wEAAEsCav4BAABLAmoB
-AgAASwJqBAIAAEsCdWo0AQAAfZR1YmgMKYGUfZQoaA99lChqPgEAAH2UKGozAQAASwGGlIwFY2xh
-c3OUSwCGlGo3AQAASwOGlIwEbWV0YZRLAIaUajgBAABLAoaUahICAABLAYaUajkBAABLAoaUahIC
-AABLAoaUajoBAABLAoaUahICAABLA4aUajYBAABLA4aUahICAABLBIaUdUr+////hpRoB0sBdWjv
-fZRqMwEAAEsBc2o0AQAAfZQoajYBAABLA2o3AQAASwNqOAEAAEsCajkBAABLAmo6AQAASwJ1dWJl
-dS4=
-</properties>
-		<properties node_id="5" format="pickle">gASVAAoAAAAAAAB9lCiMFGNvbXBhcmlzb25fY3JpdGVyaW9ulEsAjBJjb250cm9sQXJlYVZpc2li
-bGWUiIwNY3Zfc3RyYXRpZmllZJSIjAduX2ZvbGRzlEsCjAluX3JlcGVhdHOUSwOMCnJlc2FtcGxp
+		<properties node_id="4" format="pickle">gASVFw4AAAAAAAB9lCiMFGNvbXBhcmlzb25fY3JpdGVyaW9ulEsAjBJjb250cm9sQXJlYVZpc2li
+bGWUiIwNY3Zfc3RyYXRpZmllZJSIjAduX2ZvbGRzlEsAjAluX3JlcGVhdHOUSwOMCnJlc2FtcGxp
 bmeUSwWMBHJvcGWURz+5mZmZmZmajAtzYW1wbGVfc2l6ZZRLCYwTc2F2ZWRXaWRnZXRHZW9tZXRy
-eZRDQgHZ0MsAAwAAAAABxwAAAIAAAATSAAACcwAAAccAAACAAAAE0gAAAnMAAAAAAAAAAAeAAAAB
-xwAAAIAAAATSAAACc5SMEnNodWZmbGVfc3RyYXRpZmllZJSIjAh1c2Vfcm9wZZSJjAtzY29yZV90
+eZRDQgHZ0MsAAwAAAAAB1gAAAK4AAAZ0AAACoQAAAdYAAACuAAAGdAAAAqEAAAAAAAAAAAeAAAAB
+1gAAAK4AAAZ0AAACoZSMEnNodWZmbGVfc3RyYXRpZmllZJSIjAh1c2Vfcm9wZZSJjAtzY29yZV90
 YWJsZZR9lIwQc2hvd19zY29yZV9oaW50c5R9lCiMBk1vZGVsX5SIjAZUcmFpbl+UiYwFVGVzdF+U
 iYwCQ0GUiIwXUHJlY2lzaW9uUmVjYWxsRlN1cHBvcnSUiIwLVGFyZ2V0U2NvcmWUiIwJUHJlY2lz
 aW9ulIiMBlJlY2FsbJSIjAJGMZSIjANBVUOUiIwHTG9nTG9zc5SJjAtTcGVjaWZpY2l0eZSJjBdN
 YXR0aGV3c0NvcnJDb2VmZmljaWVudJSIjANNU0WUiIwEUk1TRZSIjANNQUWUiIwETUFQRZSIjAJS
 MpSIjAZDVlJNU0WUiYwPQ2x1c3RlcmluZ1Njb3JllIiMClNpbGhvdWV0dGWUiIwXQWRqdXN0ZWRN
-dXR1YWxJbmZvU2NvcmWUiHVzjAtfX3ZlcnNpb25fX5RLBIwQY29udGV4dF9zZXR0aW5nc5RdlIwV
-b3Jhbmdld2lkZ2V0LnNldHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwPY2xh
-c3Nfc2VsZWN0aW9ulIwhKE5vbmUsIHNob3cgYXZlcmFnZSBvdmVyIGNsYXNzZXMplEr/////hpSM
-DGZvbGRfZmVhdHVyZZROSv7///+GlIwVZm9sZF9mZWF0dXJlX3NlbGVjdGVklIlK/v///4aUaA19
-lGgnSwR1jAphdHRyaWJ1dGVzlCiMCjAgLSBub3NlIHiUSwKGlIwKMCAtIG5vc2UgeZRLAoaUjBYx
-IC0gbGVmdCBleWUgKGlubmVyKSB4lEsChpSMFjEgLSBsZWZ0IGV5ZSAoaW5uZXIpIHmUSwKGlIwO
-MiAtIGxlZnQgZXllIHiUSwKGlIwOMiAtIGxlZnQgZXllIHmUSwKGlIwWMyAtIGxlZnQgZXllIChv
-dXRlcikgeJRLAoaUjBYzIC0gbGVmdCBleWUgKG91dGVyKSB5lEsChpSMFzQgLSByaWdodCBleWUg
-KGlubmVyKSB4lEsChpSMFzQgLSByaWdodCBleWUgKGlubmVyKSB5lEsChpSMDzUgLSByaWdodCBl
-eWUgeJRLAoaUjA81IC0gcmlnaHQgZXllIHmUSwKGlIwXNiAtIHJpZ2h0IGV5ZSAob3V0ZXIpIHiU
-SwKGlIwXNiAtIHJpZ2h0IGV5ZSAob3V0ZXIpIHmUSwKGlIwONyAtIGxlZnQgZWFyIHiUSwKGlIwO
-NyAtIGxlZnQgZWFyIHmUSwKGlIwPOCAtIHJpZ2h0IGVhciB4lEsChpSMDzggLSByaWdodCBlYXIg
-eZRLAoaUjBI5IC0gbW91dGggKGxlZnQpIHiUSwKGlIwSOSAtIG1vdXRoIChsZWZ0KSB5lEsChpSM
-FDEwIC0gbW91dGggKHJpZ2h0KSB4lEsChpSMFDEwIC0gbW91dGggKHJpZ2h0KSB5lEsChpSMFDEx
-IC0gbGVmdCBzaG91bGRlciB4lEsChpSMFDExIC0gbGVmdCBzaG91bGRlciB5lEsChpSMFTEyIC0g
-cmlnaHQgc2hvdWxkZXIgeJRLAoaUjBUxMiAtIHJpZ2h0IHNob3VsZGVyIHmUSwKGlIwRMTMgLSBs
-ZWZ0IGVsYm93IHiUSwKGlIwRMTMgLSBsZWZ0IGVsYm93IHmUSwKGlIwSMTQgLSByaWdodCBlbGJv
-dyB4lEsChpSMEjE0IC0gcmlnaHQgZWxib3cgeZRLAoaUjBExNSAtIGxlZnQgd3Jpc3QgeJRLAoaU
-jBExNSAtIGxlZnQgd3Jpc3QgeZRLAoaUjBIxNiAtIHJpZ2h0IHdyaXN0IHiUSwKGlIwSMTYgLSBy
-aWdodCB3cmlzdCB5lEsChpSMETE3IC0gbGVmdCBwaW5reSB4lEsChpSMETE3IC0gbGVmdCBwaW5r
-eSB5lEsChpSMEjE4IC0gcmlnaHQgcGlua3kgeJRLAoaUjBIxOCAtIHJpZ2h0IHBpbmt5IHmUSwKG
-lIwRMTkgLSBsZWZ0IGluZGV4IHiUSwKGlIwRMTkgLSBsZWZ0IGluZGV4IHmUSwKGlIwSMjAgLSBy
-aWdodCBpbmRleCB4lEsChpSMEjIwIC0gcmlnaHQgaW5kZXggeZRLAoaUjBEyMSAtIGxlZnQgdGh1
-bWIgeJRLAoaUjBEyMSAtIGxlZnQgdGh1bWIgeZRLAoaUjBIyMiAtIHJpZ2h0IHRodW1iIHiUSwKG
-lIwSMjIgLSByaWdodCB0aHVtYiB5lEsChpSMDzIzIC0gbGVmdCBoaXAgeJRLAoaUjA8yMyAtIGxl
-ZnQgaGlwIHmUSwKGlIwQMjQgLSByaWdodCBoaXAgeJRLAoaUjBAyNCAtIHJpZ2h0IGhpcCB5lEsC
-hpSMEDI1IC0gbGVmdCBrbmVlIHiUSwKGlIwQMjUgLSBsZWZ0IGtuZWUgeZRLAoaUjBEyNiAtIHJp
-Z2h0IGtuZWUgeJRLAoaUjBEyNiAtIHJpZ2h0IGtuZWUgeZRLAoaUjBEyNyAtIGxlZnQgYW5rbGUg
-eJRLAoaUjBEyNyAtIGxlZnQgYW5rbGUgeZRLAoaUjBIyOCAtIHJpZ2h0IGFua2xlIHiUSwKGlIwS
-MjggLSByaWdodCBhbmtsZSB5lEsChpSMEDI5IC0gbGVmdCBoZWVsIHiUSwKGlIwQMjkgLSBsZWZ0
-IGhlZWwgeZRLAoaUjBEzMCAtIHJpZ2h0IGhlZWwgeJRLAoaUjBEzMCAtIHJpZ2h0IGhlZWwgeZRL
-AoaUjBYzMSAtIGxlZnQgZm9vdCBpbmRleCB4lEsChpSMFjMxIC0gbGVmdCBmb290IGluZGV4IHmU
-SwKGlIwXMzIgLSByaWdodCBmb290IGluZGV4IHiUSwKGlIwXMzIgLSByaWdodCBmb290IGluZGV4
-IHmUSwKGlHSUjAVtZXRhc5QojAppbWFnZSBuYW1llEsDhpSMBWltYWdllEsDhpSMBHNpemWUSwKG
-lIwFd2lkdGiUSwKGlIwGaGVpZ2h0lEsChpR0lIwKY2xhc3NfdmFyc5SMCGNhdGVnb3J5lEsBhpSF
-lHViYXUu
+dXR1YWxJbmZvU2NvcmWUiHVzjAtfX3ZlcnNpb25fX5RLBIwQY29udGV4dF9zZXR0aW5nc5RdlCiM
+FW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMD2Ns
+YXNzX3NlbGVjdGlvbpSMIShOb25lLCBzaG93IGF2ZXJhZ2Ugb3ZlciBjbGFzc2VzKZRK/////4aU
+jAxmb2xkX2ZlYXR1cmWUTkr+////hpSMFWZvbGRfZmVhdHVyZV9zZWxlY3RlZJSJSv7///+GlGgN
+fZRoJ0sEdYwKYXR0cmlidXRlc5QojBQxMSAtIGxlZnQgc2hvdWxkZXIgeJRLAoaUjBQxMSAtIGxl
+ZnQgc2hvdWxkZXIgeZRLAoaUjBUxMiAtIHJpZ2h0IHNob3VsZGVyIHiUSwKGlIwVMTIgLSByaWdo
+dCBzaG91bGRlciB5lEsChpSMETEzIC0gbGVmdCBlbGJvdyB4lEsChpSMETEzIC0gbGVmdCBlbGJv
+dyB5lEsChpSMEjE0IC0gcmlnaHQgZWxib3cgeJRLAoaUjBIxNCAtIHJpZ2h0IGVsYm93IHmUSwKG
+lIwRMTUgLSBsZWZ0IHdyaXN0IHiUSwKGlIwRMTUgLSBsZWZ0IHdyaXN0IHmUSwKGlIwSMTYgLSBy
+aWdodCB3cmlzdCB4lEsChpSMEjE2IC0gcmlnaHQgd3Jpc3QgeZRLAoaUjA8yMyAtIGxlZnQgaGlw
+IHiUSwKGlIwPMjMgLSBsZWZ0IGhpcCB5lEsChpSMEDI0IC0gcmlnaHQgaGlwIHiUSwKGlIwQMjQg
+LSByaWdodCBoaXAgeZRLAoaUdJSMBW1ldGFzlCiMCmltYWdlIG5hbWWUSwOGlIwFaW1hZ2WUSwOG
+lIwEc2l6ZZRLAoaUjAZoZWlnaHSUSwKGlIwFd2lkdGiUSwKGlHSUjApjbGFzc192YXJzlIwIY2F0
+ZWdvcnmUSwGGlIWUdWJoLCmBlH2UKGgvfZQoaDFoMkr/////hpRoNE5K/v///4aUaDaJSv7///+G
+lGgNfZRoJ0sEdWg5KIwUMTEgLSBsZWZ0IHNob3VsZGVyIHiUSwKGlIwUMTEgLSBsZWZ0IHNob3Vs
+ZGVyIHmUSwKGlIwVMTIgLSByaWdodCBzaG91bGRlciB4lEsChpSMFTEyIC0gcmlnaHQgc2hvdWxk
+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
+lHSUaGeMCGNhdGVnb3J5lEsBhpSFlHViZXUu
 </properties>
-		<properties node_id="6" format="pickle">gASV5gEAAAAAAAB9lCiMEmFwcGVuZF9wcmVkaWN0aW9uc5SIjBRhcHBlbmRfcHJvYmFiaWxpdGll
+		<properties node_id="5" format="pickle">gASV+AEAAAAAAAB9lCiMEmFwcGVuZF9wcmVkaWN0aW9uc5SIjBRhcHBlbmRfcHJvYmFiaWxpdGll
 c5SIjAphdXRvY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21l
-dHJ5lENCAdnQywADAAAAAAJIAAABPwAABbIAAANOAAACSQAAAV4AAAWxAAADTQAAAAAAAAAAB4AA
+dHJ5lENCAdnQywADAAAAAAJJAAABXgAABbEAAANNAAACSQAAAV4AAAWxAAADTQAAAAAAAAAAB4AA
 AAJJAAABXgAABbEAAANNlIwQc2VsZWN0ZWRfbGVhcm5lcpSMB2NvcHlyZWeUjA5fcmVjb25zdHJ1
-Y3RvcpSTlIwIYnVpbHRpbnOUjARsaXN0lJOUaA0ph5RSlEsBYYwRc2VsZWN0ZWRfcXVhbnRpdHmU
-SwOMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UKIwVb3Jhbmdld2lkZ2V0LnNl
-dHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwJc2VsZWN0aW9ulI+UaBFLAXWM
-B2NsYXNzZXOUjARkb3dulIwEc3RvcJSMAnVwlIeUdWJoFimBlH2UKGgZfZQoaBuPlGgRSwF1aB0o
-jARkb3dulIwEbGVmdJSMBXJpZ2h0lIwEc3RvcJSMAnVwlHSUdWJldS4=
+Y3RvcpSTlIwIYnVpbHRpbnOUjARsaXN0lJOUaA0ph5RSlEsAYYwRc2VsZWN0ZWRfcXVhbnRpdHmU
+SwCMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UKIwVb3Jhbmdld2lkZ2V0LnNl
+dHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwJc2VsZWN0aW9ulI+UKEsESwSG
+lJBoEUsBdYwHY2xhc3Nlc5QojARkb3dulIwEbGVmdJSMBXJpZ2h0lIwEc3RvcJSMAnVwlHSUdWJo
+FimBlH2UKGgZfZQojAlzZWxlY3Rpb26Uj5RoEUsBdWgejARkb3dulIwEc3RvcJSMAnVwlIeUdWJl
+dS4=
 </properties>
-		<properties node_id="7" format="literal">{'C': 1.0, 'auto_apply': True, 'coef0': 1.0, 'controlAreaVisible': True, 'degree': 3, 'epsilon': 0.1, 'gamma': 0.0, 'kernel_type': 2, 'learner_name': '', 'limit_iter': True, 'max_iter': 100, 'nu': 0.5, 'nu_C': 1.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x030\x00\x00\x01\x01\x00\x00\x04O\x00\x00\x02\xf0\x00\x00\x031\x00\x00\x01 \x00\x00\x04N\x00\x00\x02\xef\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x031\x00\x00\x01 \x00\x00\x04N\x00\x00\x02\xef', 'svm_type': 0, 'tol': 0.001, '__version__': 2}</properties>
-		<properties node_id="8" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x07\x00\x00\x00\x86\x00\x00\x07,\x00\x00\x02y\x00\x00\x01\x07\x00\x00\x00\x86\x00\x00\x07,\x00\x00\x02y\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01\x07\x00\x00\x00\x86\x00\x00\x07,\x00\x00\x02y', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
-		<properties node_id="9" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01=\x00\x00\x00\xf5\x00\x00\x04]\x00\x00\x03L\x00\x00\x01=\x00\x00\x00\xf5\x00\x00\x04]\x00\x00\x03L\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01=\x00\x00\x00\xf5\x00\x00\x04]\x00\x00\x03L', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\nprint(in_data)\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}, {'name': 'mediapipe_pose', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\nimport mediapipe as mp\nimport cv2\n\n\nstaticImageMode=False\nmodelComplexity=1\nsmoothLandmarks=True\nenableSegmentation=False\nsmoothSegmentation=True\nminDetectionConfidence=0.5\nminTrackingConfidence=0.5\n\nmpPose = mp.solutions.pose\npose = mpPose.Pose(staticImageMode, modelComplexity, smoothLandmarks, enableSegmentation, smoothSegmentation, minDetectionConfidence, minTrackingConfidence)\n\n#print(in_data)\n\noutput = []\n\norigin = in_data.domain["image"].attributes["origin"]\n\nfor img in in_data:\n    image = cv2.imread(origin + "/" + img["image"].value)\n    imgRGB = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)\n    results = pose.process(imgRGB)\n    out_img = []\n    for landmark in results.pose_landmarks.landmark:\n        out_img.append(landmark.x)\n        out_img.append(landmark.y)\n    #out_img.append(img["category"].value)\n    output.append(out_img)\n\noutput_arr = np.array(output)\n\ndomain = Domain([\n    ContinuousVariable("0 - nose x"),\n    ContinuousVariable("0 - nose y"),\n    ContinuousVariable("1 - left eye (inner) x"),\n    ContinuousVariable("1 - left eye (inner) y"),\n    ContinuousVariable("2 - left eye x"),\n    ContinuousVariable("2 - left eye y"),\n    ContinuousVariable("3 - left eye (outer) x"),\n    ContinuousVariable("3 - left eye (outer) y"),\n    ContinuousVariable("4 - right eye (inner) x"),\n    ContinuousVariable("4 - right eye (inner) y"),\n    ContinuousVariable("5 - right eye x"),\n    ContinuousVariable("5 - right eye y"),\n    ContinuousVariable("6 - right eye (outer) x"),\n    ContinuousVariable("6 - right eye (outer) y"),\n    ContinuousVariable("7 - left ear x"),\n    ContinuousVariable("7 - left ear y"),\n    ContinuousVariable("8 - right ear x"),\n    ContinuousVariable("8 - right ear y"),\n    ContinuousVariable("9 - mouth (left) x"),\n    ContinuousVariable("9 - mouth (left) y"),\n    ContinuousVariable("10 - mouth (right) x"),\n    ContinuousVariable("10 - mouth (right) y"),\n    ContinuousVariable("11 - left shoulder x"),\n    ContinuousVariable("11 - left shoulder y"),\n    ContinuousVariable("12 - right shoulder x"),\n    ContinuousVariable("12 - right shoulder y"),\n    ContinuousVariable("13 - left elbow x"),\n    ContinuousVariable("13 - left elbow y"),\n    ContinuousVariable("14 - right elbow x"),\n    ContinuousVariable("14 - right elbow y"),\n    ContinuousVariable("15 - left wrist x"),\n    ContinuousVariable("15 - left wrist y"),\n    ContinuousVariable("16 - right wrist x"),\n    ContinuousVariable("16 - right wrist y"),\n    ContinuousVariable("17 - left pinky x"),\n    ContinuousVariable("17 - left pinky y"),\n    ContinuousVariable("18 - right pinky x"),\n    ContinuousVariable("18 - right pinky y"),\n    ContinuousVariable("19 - left index x"),\n    ContinuousVariable("19 - left index y"),\n    ContinuousVariable("20 - right index x"),\n    ContinuousVariable("20 - right index y"),\n    ContinuousVariable("21 - left thumb x"),\n    ContinuousVariable("21 - left thumb y"),\n    ContinuousVariable("22 - right thumb x"),\n    ContinuousVariable("22 - right thumb y"),\n    ContinuousVariable("23 - left hip x"),\n    ContinuousVariable("23 - left hip y"),\n    ContinuousVariable("24 - right hip x"),\n    ContinuousVariable("24 - right hip y"),\n    ContinuousVariable("25 - left knee x"),\n    ContinuousVariable("25 - left knee y"),\n    ContinuousVariable("26 - right knee x"),\n    ContinuousVariable("26 - right knee y"),\n    ContinuousVariable("27 - left ankle x"),\n    ContinuousVariable("27 - left ankle y"),\n    ContinuousVariable("28 - right ankle x"),\n    ContinuousVariable("28 - right ankle y"),\n    ContinuousVariable("29 - left heel x"),\n    ContinuousVariable("29 - left heel y"),\n    ContinuousVariable("30 - right heel x"),\n    ContinuousVariable("30 - right heel y"),\n    ContinuousVariable("31 - left foot index x"),\n    ContinuousVariable("31 - left foot index y"),\n    ContinuousVariable("32 - right foot index x"),\n    ContinuousVariable("32 - right foot index y"),\n], class_vars=in_data.domain.class_vars, metas=in_data.domain.metas)\n\nout_data = Table.from_numpy(domain, output_arr, Y=in_data.Y, metas=in_data.metas)\n', 'filename': None}], 'scriptText': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\nimport mediapipe as mp\nimport cv2\n\n\nstaticImageMode=False\nmodelComplexity=1\nsmoothLandmarks=True\nenableSegmentation=False\nsmoothSegmentation=True\nminDetectionConfidence=0.5\nminTrackingConfidence=0.5\n\nmpPose = mp.solutions.pose\npose = mpPose.Pose(staticImageMode, modelComplexity, smoothLandmarks, enableSegmentation, smoothSegmentation, minDetectionConfidence, minTrackingConfidence)\n\n#print(in_data)\n\noutput = []\n\norigin = in_data.domain["image"].attributes["origin"]\n\nfor img in in_data:\n    image = cv2.imread(origin + "/" + img["image"].value)\n    imgRGB = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)\n    results = pose.process(imgRGB)\n    out_img = []\n    for landmark in results.pose_landmarks.landmark:\n        out_img.append(landmark.x)\n        out_img.append(landmark.y)\n    #out_img.append(img["category"].value)\n    output.append(out_img)\n\noutput_arr = np.array(output)\n\ndomain = Domain([\n    ContinuousVariable("0 - nose x"),\n    ContinuousVariable("0 - nose y"),\n    ContinuousVariable("1 - left eye (inner) x"),\n    ContinuousVariable("1 - left eye (inner) y"),\n    ContinuousVariable("2 - left eye x"),\n    ContinuousVariable("2 - left eye y"),\n    ContinuousVariable("3 - left eye (outer) x"),\n    ContinuousVariable("3 - left eye (outer) y"),\n    ContinuousVariable("4 - right eye (inner) x"),\n    ContinuousVariable("4 - right eye (inner) y"),\n    ContinuousVariable("5 - right eye x"),\n    ContinuousVariable("5 - right eye y"),\n    ContinuousVariable("6 - right eye (outer) x"),\n    ContinuousVariable("6 - right eye (outer) y"),\n    ContinuousVariable("7 - left ear x"),\n    ContinuousVariable("7 - left ear y"),\n    ContinuousVariable("8 - right ear x"),\n    ContinuousVariable("8 - right ear y"),\n    ContinuousVariable("9 - mouth (left) x"),\n    ContinuousVariable("9 - mouth (left) y"),\n    ContinuousVariable("10 - mouth (right) x"),\n    ContinuousVariable("10 - mouth (right) y"),\n    ContinuousVariable("11 - left shoulder x"),\n    ContinuousVariable("11 - left shoulder y"),\n    ContinuousVariable("12 - right shoulder x"),\n    ContinuousVariable("12 - right shoulder y"),\n    ContinuousVariable("13 - left elbow x"),\n    ContinuousVariable("13 - left elbow y"),\n    ContinuousVariable("14 - right elbow x"),\n    ContinuousVariable("14 - right elbow y"),\n    ContinuousVariable("15 - left wrist x"),\n    ContinuousVariable("15 - left wrist y"),\n    ContinuousVariable("16 - right wrist x"),\n    ContinuousVariable("16 - right wrist y"),\n    ContinuousVariable("17 - left pinky x"),\n    ContinuousVariable("17 - left pinky y"),\n    ContinuousVariable("18 - right pinky x"),\n    ContinuousVariable("18 - right pinky y"),\n    ContinuousVariable("19 - left index x"),\n    ContinuousVariable("19 - left index y"),\n    ContinuousVariable("20 - right index x"),\n    ContinuousVariable("20 - right index y"),\n    ContinuousVariable("21 - left thumb x"),\n    ContinuousVariable("21 - left thumb y"),\n    ContinuousVariable("22 - right thumb x"),\n    ContinuousVariable("22 - right thumb y"),\n    ContinuousVariable("23 - left hip x"),\n    ContinuousVariable("23 - left hip y"),\n    ContinuousVariable("24 - right hip x"),\n    ContinuousVariable("24 - right hip y"),\n    ContinuousVariable("25 - left knee x"),\n    ContinuousVariable("25 - left knee y"),\n    ContinuousVariable("26 - right knee x"),\n    ContinuousVariable("26 - right knee y"),\n    ContinuousVariable("27 - left ankle x"),\n    ContinuousVariable("27 - left ankle y"),\n    ContinuousVariable("28 - right ankle x"),\n    ContinuousVariable("28 - right ankle y"),\n    ContinuousVariable("29 - left heel x"),\n    ContinuousVariable("29 - left heel y"),\n    ContinuousVariable("30 - right heel x"),\n    ContinuousVariable("30 - right heel y"),\n    ContinuousVariable("31 - left foot index x"),\n    ContinuousVariable("31 - left foot index y"),\n    ContinuousVariable("32 - right foot index x"),\n    ContinuousVariable("32 - right foot index y"),\n], class_vars=in_data.domain.class_vars, metas=in_data.domain.metas)\n\nout_data = Table.from_numpy(domain, output_arr, Y=in_data.Y, metas=in_data.metas)\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x9f\x00\x00\x00`\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
-		<properties node_id="10" format="literal">{'auto_save': True, 'controlAreaVisible': True, 'filter': 'Pickled model (*.pkcls)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03N\x00\x00\x01\xd8\x00\x00\x041\x00\x00\x028\x00\x00\x03N\x00\x00\x01\xd8\x00\x00\x041\x00\x00\x028\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03N\x00\x00\x01\xd8\x00\x00\x041\x00\x00\x028', 'stored_name': 'model.pkcls', 'stored_path': '.', '__version__': 1}</properties>
-		<properties node_id="11" format="literal">{'activation_index': 3, 'alpha_index': 1, 'auto_apply': True, 'controlAreaVisible': True, 'hidden_layers_input': '100,', 'learner_name': '', 'max_iterations': 200, 'replicable': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03 \x00\x00\x01y\x00\x00\x04`\x00\x00\x02\x96\x00\x00\x03 \x00\x00\x01y\x00\x00\x04`\x00\x00\x02\x96\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03 \x00\x00\x01y\x00\x00\x04`\x00\x00\x02\x96', 'solver_index': 2, '__version__': 2}</properties>
-		<properties node_id="12" format="literal">{'auto_apply': True, 'class_weight': False, 'controlAreaVisible': True, 'index_output': 0, 'learner_name': '', 'max_depth': 3, 'max_features': 5, 'min_samples_split': 5, 'n_estimators': 10, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\x04\x00\x00\x01H\x00\x00\x04|\x00\x00\x02\xaa\x00\x00\x03\x05\x00\x00\x01g\x00\x00\x04{\x00\x00\x02\xa9\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03\x05\x00\x00\x01g\x00\x00\x04{\x00\x00\x02\xa9', 'use_max_depth': False, 'use_max_features': False, 'use_min_samples_split': True, 'use_random_state': False, '__version__': 1}</properties>
-		<properties node_id="13" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02/\x00\x00\x00\xef\x00\x00\x07R\x00\x00\x03\x02\x00\x00\x020\x00\x00\x01\x0e\x00\x00\x07Q\x00\x00\x03\x01\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x020\x00\x00\x01\x0e\x00\x00\x07Q\x00\x00\x03\x01', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
-		<properties node_id="14" format="pickle">gASViwcAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
+		<properties node_id="6" format="literal">{'C': 1.0, 'auto_apply': True, 'coef0': 1.0, 'controlAreaVisible': True, 'degree': 3, 'epsilon': 0.1, 'gamma': 0.0, 'kernel_type': 2, 'learner_name': '', 'limit_iter': True, 'max_iter': 100, 'nu': 0.5, 'nu_C': 1.0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x030\x00\x00\x01\x01\x00\x00\x04O\x00\x00\x02\xf0\x00\x00\x031\x00\x00\x01 \x00\x00\x04N\x00\x00\x02\xef\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x031\x00\x00\x01 \x00\x00\x04N\x00\x00\x02\xef', 'svm_type': 0, 'tol': 0.001, '__version__': 2}</properties>
+		<properties node_id="7" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x07\x7f\x00\x00\x04\x0f\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x07\x7f\x00\x00\x04\x0f\x00\x00\x00\x00\x02\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x07\x7f\x00\x00\x04\x0f', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [181], 'columns': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71]}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="8" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01=\x00\x00\x00\xf5\x00\x00\x04]\x00\x00\x03L\x00\x00\x01=\x00\x00\x00\xf5\x00\x00\x04]\x00\x00\x03L\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01=\x00\x00\x00\xf5\x00\x00\x04]\x00\x00\x03L', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\nprint(in_data)\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}, {'name': 'mediapipe_pose', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\nimport mediapipe as mp\nimport cv2\n\n\nstaticImageMode=False\nmodelComplexity=1\nsmoothLandmarks=True\nenableSegmentation=False\nsmoothSegmentation=True\nminDetectionConfidence=0.5\nminTrackingConfidence=0.5\n\nmpPose = mp.solutions.pose\npose = mpPose.Pose(staticImageMode, modelComplexity, smoothLandmarks, enableSegmentation, smoothSegmentation, minDetectionConfidence, minTrackingConfidence)\n\n#print(in_data)\n\noutput = []\n\norigin = in_data.domain["image"].attributes["origin"]\n\nfor img in in_data:\n    image = cv2.imread(origin + "/" + img["image"].value)\n    imgRGB = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)\n    results = pose.process(imgRGB)\n    out_img = []\n    \n    if results.pose_landmarks:\n        for landmark in results.pose_landmarks.landmark:\n            out_img.append(landmark.x)\n            out_img.append(landmark.y)\n    else:\n        out_img = [-1.0 for i in range(66)]\n    output.append(out_img)\n\noutput_arr = np.array(output)\n\ndomain = Domain([\n    ContinuousVariable("0 - nose x"),\n    ContinuousVariable("0 - nose y"),\n    ContinuousVariable("1 - left eye (inner) x"),\n    ContinuousVariable("1 - left eye (inner) y"),\n    ContinuousVariable("2 - left eye x"),\n    ContinuousVariable("2 - left eye y"),\n    ContinuousVariable("3 - left eye (outer) x"),\n    ContinuousVariable("3 - left eye (outer) y"),\n    ContinuousVariable("4 - right eye (inner) x"),\n    ContinuousVariable("4 - right eye (inner) y"),\n    ContinuousVariable("5 - right eye x"),\n    ContinuousVariable("5 - right eye y"),\n    ContinuousVariable("6 - right eye (outer) x"),\n    ContinuousVariable("6 - right eye (outer) y"),\n    ContinuousVariable("7 - left ear x"),\n    ContinuousVariable("7 - left ear y"),\n    ContinuousVariable("8 - right ear x"),\n    ContinuousVariable("8 - right ear y"),\n    ContinuousVariable("9 - mouth (left) x"),\n    ContinuousVariable("9 - mouth (left) y"),\n    ContinuousVariable("10 - mouth (right) x"),\n    ContinuousVariable("10 - mouth (right) y"),\n    ContinuousVariable("11 - left shoulder x"),\n    ContinuousVariable("11 - left shoulder y"),\n    ContinuousVariable("12 - right shoulder x"),\n    ContinuousVariable("12 - right shoulder y"),\n    ContinuousVariable("13 - left elbow x"),\n    ContinuousVariable("13 - left elbow y"),\n    ContinuousVariable("14 - right elbow x"),\n    ContinuousVariable("14 - right elbow y"),\n    ContinuousVariable("15 - left wrist x"),\n    ContinuousVariable("15 - left wrist y"),\n    ContinuousVariable("16 - right wrist x"),\n    ContinuousVariable("16 - right wrist y"),\n    ContinuousVariable("17 - left pinky x"),\n    ContinuousVariable("17 - left pinky y"),\n    ContinuousVariable("18 - right pinky x"),\n    ContinuousVariable("18 - right pinky y"),\n    ContinuousVariable("19 - left index x"),\n    ContinuousVariable("19 - left index y"),\n    ContinuousVariable("20 - right index x"),\n    ContinuousVariable("20 - right index y"),\n    ContinuousVariable("21 - left thumb x"),\n    ContinuousVariable("21 - left thumb y"),\n    ContinuousVariable("22 - right thumb x"),\n    ContinuousVariable("22 - right thumb y"),\n    ContinuousVariable("23 - left hip x"),\n    ContinuousVariable("23 - left hip y"),\n    ContinuousVariable("24 - right hip x"),\n    ContinuousVariable("24 - right hip y"),\n    ContinuousVariable("25 - left knee x"),\n    ContinuousVariable("25 - left knee y"),\n    ContinuousVariable("26 - right knee x"),\n    ContinuousVariable("26 - right knee y"),\n    ContinuousVariable("27 - left ankle x"),\n    ContinuousVariable("27 - left ankle y"),\n    ContinuousVariable("28 - right ankle x"),\n    ContinuousVariable("28 - right ankle y"),\n    ContinuousVariable("29 - left heel x"),\n    ContinuousVariable("29 - left heel y"),\n    ContinuousVariable("30 - right heel x"),\n    ContinuousVariable("30 - right heel y"),\n    ContinuousVariable("31 - left foot index x"),\n    ContinuousVariable("31 - left foot index y"),\n    ContinuousVariable("32 - right foot index x"),\n    ContinuousVariable("32 - right foot index y"),\n], class_vars=in_data.domain.class_vars, metas=in_data.domain.metas)\n\nout_data = Table.from_numpy(domain, output_arr, Y=in_data.Y, metas=in_data.metas)\n', 'filename': None}], 'scriptText': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\nimport mediapipe as mp\nimport cv2\n\n\nstaticImageMode=False\nmodelComplexity=1\nsmoothLandmarks=True\nenableSegmentation=False\nsmoothSegmentation=True\nminDetectionConfidence=0.5\nminTrackingConfidence=0.5\n\nmpPose = mp.solutions.pose\npose = mpPose.Pose(staticImageMode, modelComplexity, smoothLandmarks, enableSegmentation, smoothSegmentation, minDetectionConfidence, minTrackingConfidence)\n\n#print(in_data)\n\noutput = []\n\norigin = in_data.domain["image"].attributes["origin"]\n\nfor img in in_data:\n    image = cv2.imread(origin + "/" + img["image"].value)\n    imgRGB = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)\n    results = pose.process(imgRGB)\n    out_img = []\n    \n    if results.pose_landmarks:\n        for landmark in results.pose_landmarks.landmark:\n            out_img.append(landmark.x)\n            out_img.append(landmark.y)\n    else:\n        out_img = [-1.0 for i in range(66)]\n    output.append(out_img)\n\noutput_arr = np.array(output)\n\ndomain = Domain([\n    ContinuousVariable("0 - nose x"),\n    ContinuousVariable("0 - nose y"),\n    ContinuousVariable("1 - left eye (inner) x"),\n    ContinuousVariable("1 - left eye (inner) y"),\n    ContinuousVariable("2 - left eye x"),\n    ContinuousVariable("2 - left eye y"),\n    ContinuousVariable("3 - left eye (outer) x"),\n    ContinuousVariable("3 - left eye (outer) y"),\n    ContinuousVariable("4 - right eye (inner) x"),\n    ContinuousVariable("4 - right eye (inner) y"),\n    ContinuousVariable("5 - right eye x"),\n    ContinuousVariable("5 - right eye y"),\n    ContinuousVariable("6 - right eye (outer) x"),\n    ContinuousVariable("6 - right eye (outer) y"),\n    ContinuousVariable("7 - left ear x"),\n    ContinuousVariable("7 - left ear y"),\n    ContinuousVariable("8 - right ear x"),\n    ContinuousVariable("8 - right ear y"),\n    ContinuousVariable("9 - mouth (left) x"),\n    ContinuousVariable("9 - mouth (left) y"),\n    ContinuousVariable("10 - mouth (right) x"),\n    ContinuousVariable("10 - mouth (right) y"),\n    ContinuousVariable("11 - left shoulder x"),\n    ContinuousVariable("11 - left shoulder y"),\n    ContinuousVariable("12 - right shoulder x"),\n    ContinuousVariable("12 - right shoulder y"),\n    ContinuousVariable("13 - left elbow x"),\n    ContinuousVariable("13 - left elbow y"),\n    ContinuousVariable("14 - right elbow x"),\n    ContinuousVariable("14 - right elbow y"),\n    ContinuousVariable("15 - left wrist x"),\n    ContinuousVariable("15 - left wrist y"),\n    ContinuousVariable("16 - right wrist x"),\n    ContinuousVariable("16 - right wrist y"),\n    ContinuousVariable("17 - left pinky x"),\n    ContinuousVariable("17 - left pinky y"),\n    ContinuousVariable("18 - right pinky x"),\n    ContinuousVariable("18 - right pinky y"),\n    ContinuousVariable("19 - left index x"),\n    ContinuousVariable("19 - left index y"),\n    ContinuousVariable("20 - right index x"),\n    ContinuousVariable("20 - right index y"),\n    ContinuousVariable("21 - left thumb x"),\n    ContinuousVariable("21 - left thumb y"),\n    ContinuousVariable("22 - right thumb x"),\n    ContinuousVariable("22 - right thumb y"),\n    ContinuousVariable("23 - left hip x"),\n    ContinuousVariable("23 - left hip y"),\n    ContinuousVariable("24 - right hip x"),\n    ContinuousVariable("24 - right hip y"),\n    ContinuousVariable("25 - left knee x"),\n    ContinuousVariable("25 - left knee y"),\n    ContinuousVariable("26 - right knee x"),\n    ContinuousVariable("26 - right knee y"),\n    ContinuousVariable("27 - left ankle x"),\n    ContinuousVariable("27 - left ankle y"),\n    ContinuousVariable("28 - right ankle x"),\n    ContinuousVariable("28 - right ankle y"),\n    ContinuousVariable("29 - left heel x"),\n    ContinuousVariable("29 - left heel y"),\n    ContinuousVariable("30 - right heel x"),\n    ContinuousVariable("30 - right heel y"),\n    ContinuousVariable("31 - left foot index x"),\n    ContinuousVariable("31 - left foot index y"),\n    ContinuousVariable("32 - right foot index x"),\n    ContinuousVariable("32 - right foot index y"),\n], class_vars=in_data.domain.class_vars, metas=in_data.domain.metas)\n\nout_data = Table.from_numpy(domain, output_arr, Y=in_data.Y, metas=in_data.metas)\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x9f\x00\x00\x00`\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="9" format="literal">{'auto_save': True, 'controlAreaVisible': True, 'filter': 'Pickled model (*.pkcls)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03N\x00\x00\x01\xd8\x00\x00\x041\x00\x00\x028\x00\x00\x03N\x00\x00\x01\xd8\x00\x00\x041\x00\x00\x028\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03N\x00\x00\x01\xd8\x00\x00\x041\x00\x00\x028', 'stored_name': 'model.pkcls', 'stored_path': '.', '__version__': 1}</properties>
+		<properties node_id="10" format="literal">{'activation_index': 3, 'alpha_index': 1, 'auto_apply': True, 'controlAreaVisible': True, 'hidden_layers_input': '100,', 'learner_name': '', 'max_iterations': 200, 'replicable': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\x1f\x00\x00\x01Z\x00\x00\x04a\x00\x00\x02\x97\x00\x00\x03 \x00\x00\x01y\x00\x00\x04`\x00\x00\x02\x96\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03 \x00\x00\x01y\x00\x00\x04`\x00\x00\x02\x96', 'solver_index': 2, '__version__': 2}</properties>
+		<properties node_id="11" format="literal">{'auto_apply': True, 'class_weight': False, 'controlAreaVisible': True, 'index_output': 0, 'learner_name': '', 'max_depth': 3, 'max_features': 5, 'min_samples_split': 5, 'n_estimators': 10, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\x04\x00\x00\x01H\x00\x00\x04|\x00\x00\x02\xaa\x00\x00\x03\x05\x00\x00\x01g\x00\x00\x04{\x00\x00\x02\xa9\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03\x05\x00\x00\x01g\x00\x00\x04{\x00\x00\x02\xa9', 'use_max_depth': False, 'use_max_features': False, 'use_min_samples_split': True, 'use_random_state': False, '__version__': 1}</properties>
+		<properties node_id="12" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02/\x00\x00\x00\xef\x00\x00\x07R\x00\x00\x03\x02\x00\x00\x020\x00\x00\x01\x0e\x00\x00\x07Q\x00\x00\x03\x01\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x020\x00\x00\x01\x0e\x00\x00\x07Q\x00\x00\x03\x01', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="13" format="pickle">gASVlgcAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
 ZV9hdHRyaWJ1dGVzlImMDXB1cmdlX2NsYXNzZXOUiYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ
-0MsAAwAAAAACkwAAASEAAATsAAAC0AAAApQAAAFAAAAE6wAAAs8AAAAAAAAAAAeAAAAClAAAAUAA
-AATrAAACz5SMEHVwZGF0ZV9vbl9jaGFuZ2WUiIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
+0MsAAwAAAAAC9wAAASsAAAVQAAAC2gAAAvgAAAFKAAAFTwAAAtkAAAAAAAAAAAeAAAAC+AAAAUoA
+AAVPAAAC2ZSMEHVwZGF0ZV9vbl9jaGFuZ2WUiIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
 dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVl
 c5R9lCiMCmNvbmRpdGlvbnOUXZQojAowIC0gbm9zZSB4lEsCSwFdlEe/8AAAAAAAAGF0lGFoCEsC
-dYwKYXR0cmlidXRlc5R9lChoFEsCjAowIC0gbm9zZSB5lEsCjBYxIC0gbGVmdCBleWUgKGlubmVy
-KSB4lEsCjBYxIC0gbGVmdCBleWUgKGlubmVyKSB5lEsCjA4yIC0gbGVmdCBleWUgeJRLAowOMiAt
-IGxlZnQgZXllIHmUSwKMFjMgLSBsZWZ0IGV5ZSAob3V0ZXIpIHiUSwKMFjMgLSBsZWZ0IGV5ZSAo
-b3V0ZXIpIHmUSwKMFzQgLSByaWdodCBleWUgKGlubmVyKSB4lEsCjBc0IC0gcmlnaHQgZXllIChp
-bm5lcikgeZRLAowPNSAtIHJpZ2h0IGV5ZSB4lEsCjA81IC0gcmlnaHQgZXllIHmUSwKMFzYgLSBy
-aWdodCBleWUgKG91dGVyKSB4lEsCjBc2IC0gcmlnaHQgZXllIChvdXRlcikgeZRLAowONyAtIGxl
-ZnQgZWFyIHiUSwKMDjcgLSBsZWZ0IGVhciB5lEsCjA84IC0gcmlnaHQgZWFyIHiUSwKMDzggLSBy
-aWdodCBlYXIgeZRLAowSOSAtIG1vdXRoIChsZWZ0KSB4lEsCjBI5IC0gbW91dGggKGxlZnQpIHmU
-SwKMFDEwIC0gbW91dGggKHJpZ2h0KSB4lEsCjBQxMCAtIG1vdXRoIChyaWdodCkgeZRLAowUMTEg
-LSBsZWZ0IHNob3VsZGVyIHiUSwKMFDExIC0gbGVmdCBzaG91bGRlciB5lEsCjBUxMiAtIHJpZ2h0
-IHNob3VsZGVyIHiUSwKMFTEyIC0gcmlnaHQgc2hvdWxkZXIgeZRLAowRMTMgLSBsZWZ0IGVsYm93
-IHiUSwKMETEzIC0gbGVmdCBlbGJvdyB5lEsCjBIxNCAtIHJpZ2h0IGVsYm93IHiUSwKMEjE0IC0g
-cmlnaHQgZWxib3cgeZRLAowRMTUgLSBsZWZ0IHdyaXN0IHiUSwKMETE1IC0gbGVmdCB3cmlzdCB5
-lEsCjBIxNiAtIHJpZ2h0IHdyaXN0IHiUSwKMEjE2IC0gcmlnaHQgd3Jpc3QgeZRLAowRMTcgLSBs
-ZWZ0IHBpbmt5IHiUSwKMETE3IC0gbGVmdCBwaW5reSB5lEsCjBIxOCAtIHJpZ2h0IHBpbmt5IHiU
-SwKMEjE4IC0gcmlnaHQgcGlua3kgeZRLAowRMTkgLSBsZWZ0IGluZGV4IHiUSwKMETE5IC0gbGVm
-dCBpbmRleCB5lEsCjBIyMCAtIHJpZ2h0IGluZGV4IHiUSwKMEjIwIC0gcmlnaHQgaW5kZXggeZRL
-AowRMjEgLSBsZWZ0IHRodW1iIHiUSwKMETIxIC0gbGVmdCB0aHVtYiB5lEsCjBIyMiAtIHJpZ2h0
-IHRodW1iIHiUSwKMEjIyIC0gcmlnaHQgdGh1bWIgeZRLAowPMjMgLSBsZWZ0IGhpcCB4lEsCjA8y
-MyAtIGxlZnQgaGlwIHmUSwKMEDI0IC0gcmlnaHQgaGlwIHiUSwKMEDI0IC0gcmlnaHQgaGlwIHmU
-SwKMEDI1IC0gbGVmdCBrbmVlIHiUSwKMEDI1IC0gbGVmdCBrbmVlIHmUSwKMETI2IC0gcmlnaHQg
-a25lZSB4lEsCjBEyNiAtIHJpZ2h0IGtuZWUgeZRLAowRMjcgLSBsZWZ0IGFua2xlIHiUSwKMETI3
-IC0gbGVmdCBhbmtsZSB5lEsCjBIyOCAtIHJpZ2h0IGFua2xlIHiUSwKMEjI4IC0gcmlnaHQgYW5r
-bGUgeZRLAowQMjkgLSBsZWZ0IGhlZWwgeJRLAowQMjkgLSBsZWZ0IGhlZWwgeZRLAowRMzAgLSBy
-aWdodCBoZWVsIHiUSwKMETMwIC0gcmlnaHQgaGVlbCB5lEsCjBYzMSAtIGxlZnQgZm9vdCBpbmRl
-eCB4lEsCjBYzMSAtIGxlZnQgZm9vdCBpbmRleCB5lEsCjBczMiAtIHJpZ2h0IGZvb3QgaW5kZXgg
-eJRLAowXMzIgLSByaWdodCBmb290IGluZGV4IHmUSwKMCGNhdGVnb3J5lEsBdYwFbWV0YXOUfZQo
-jAppbWFnZSBuYW1llEsDjAVpbWFnZZRLA4wEc2l6ZZRLAowFd2lkdGiUSwKMBmhlaWdodJRLAnV1
-YmF1Lg==
+dYwKYXR0cmlidXRlc5R9lCiMCjAgLSBub3NlIHiUSwKMCjAgLSBub3NlIHmUSwKMFjEgLSBsZWZ0
+IGV5ZSAoaW5uZXIpIHiUSwKMFjEgLSBsZWZ0IGV5ZSAoaW5uZXIpIHmUSwKMDjIgLSBsZWZ0IGV5
+ZSB4lEsCjA4yIC0gbGVmdCBleWUgeZRLAowWMyAtIGxlZnQgZXllIChvdXRlcikgeJRLAowWMyAt
+IGxlZnQgZXllIChvdXRlcikgeZRLAowXNCAtIHJpZ2h0IGV5ZSAoaW5uZXIpIHiUSwKMFzQgLSBy
+aWdodCBleWUgKGlubmVyKSB5lEsCjA81IC0gcmlnaHQgZXllIHiUSwKMDzUgLSByaWdodCBleWUg
+eZRLAowXNiAtIHJpZ2h0IGV5ZSAob3V0ZXIpIHiUSwKMFzYgLSByaWdodCBleWUgKG91dGVyKSB5
+lEsCjA43IC0gbGVmdCBlYXIgeJRLAowONyAtIGxlZnQgZWFyIHmUSwKMDzggLSByaWdodCBlYXIg
+eJRLAowPOCAtIHJpZ2h0IGVhciB5lEsCjBI5IC0gbW91dGggKGxlZnQpIHiUSwKMEjkgLSBtb3V0
+aCAobGVmdCkgeZRLAowUMTAgLSBtb3V0aCAocmlnaHQpIHiUSwKMFDEwIC0gbW91dGggKHJpZ2h0
+KSB5lEsCjBQxMSAtIGxlZnQgc2hvdWxkZXIgeJRLAowUMTEgLSBsZWZ0IHNob3VsZGVyIHmUSwKM
+FTEyIC0gcmlnaHQgc2hvdWxkZXIgeJRLAowVMTIgLSByaWdodCBzaG91bGRlciB5lEsCjBExMyAt
+IGxlZnQgZWxib3cgeJRLAowRMTMgLSBsZWZ0IGVsYm93IHmUSwKMEjE0IC0gcmlnaHQgZWxib3cg
+eJRLAowSMTQgLSByaWdodCBlbGJvdyB5lEsCjBExNSAtIGxlZnQgd3Jpc3QgeJRLAowRMTUgLSBs
+ZWZ0IHdyaXN0IHmUSwKMEjE2IC0gcmlnaHQgd3Jpc3QgeJRLAowSMTYgLSByaWdodCB3cmlzdCB5
+lEsCjBExNyAtIGxlZnQgcGlua3kgeJRLAowRMTcgLSBsZWZ0IHBpbmt5IHmUSwKMEjE4IC0gcmln
+aHQgcGlua3kgeJRLAowSMTggLSByaWdodCBwaW5reSB5lEsCjBExOSAtIGxlZnQgaW5kZXggeJRL
+AowRMTkgLSBsZWZ0IGluZGV4IHmUSwKMEjIwIC0gcmlnaHQgaW5kZXggeJRLAowSMjAgLSByaWdo
+dCBpbmRleCB5lEsCjBEyMSAtIGxlZnQgdGh1bWIgeJRLAowRMjEgLSBsZWZ0IHRodW1iIHmUSwKM
+EjIyIC0gcmlnaHQgdGh1bWIgeJRLAowSMjIgLSByaWdodCB0aHVtYiB5lEsCjA8yMyAtIGxlZnQg
+aGlwIHiUSwKMDzIzIC0gbGVmdCBoaXAgeZRLAowQMjQgLSByaWdodCBoaXAgeJRLAowQMjQgLSBy
+aWdodCBoaXAgeZRLAowQMjUgLSBsZWZ0IGtuZWUgeJRLAowQMjUgLSBsZWZ0IGtuZWUgeZRLAowR
+MjYgLSByaWdodCBrbmVlIHiUSwKMETI2IC0gcmlnaHQga25lZSB5lEsCjBEyNyAtIGxlZnQgYW5r
+bGUgeJRLAowRMjcgLSBsZWZ0IGFua2xlIHmUSwKMEjI4IC0gcmlnaHQgYW5rbGUgeJRLAowSMjgg
+LSByaWdodCBhbmtsZSB5lEsCjBAyOSAtIGxlZnQgaGVlbCB4lEsCjBAyOSAtIGxlZnQgaGVlbCB5
+lEsCjBEzMCAtIHJpZ2h0IGhlZWwgeJRLAowRMzAgLSByaWdodCBoZWVsIHmUSwKMFjMxIC0gbGVm
+dCBmb290IGluZGV4IHiUSwKMFjMxIC0gbGVmdCBmb290IGluZGV4IHmUSwKMFzMyIC0gcmlnaHQg
+Zm9vdCBpbmRleCB4lEsCjBczMiAtIHJpZ2h0IGZvb3QgaW5kZXggeZRLAowIY2F0ZWdvcnmUSwF1
+jAVtZXRhc5R9lCiMCmltYWdlIG5hbWWUSwOMBWltYWdllEsDjARzaXpllEsCjAV3aWR0aJRLAowG
+aGVpZ2h0lEsCdXViYXUu
 </properties>
-		<properties node_id="15" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': '', 'method_index': 0, 'savedWidgetGeometry': None, 'catgb_editor': {'colsample_bylevel': 1, 'lambda_index': 55, 'learning_rate': 0.3, 'max_depth': 6, 'n_estimators': 100, 'random_state': True}, 'gb_editor': {'learning_rate': 0.1, 'max_depth': 3, 'min_samples_split': 2, 'n_estimators': 100, 'random_state': True, 'subsample': 1}, 'xgb_editor': {'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'lambda_index': 53, 'learning_rate': 0.3, 'max_depth': 6, 'n_estimators': 100, 'random_state': True, 'subsample': 1}, 'xgbrf_editor': {'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'lambda_index': 53, 'learning_rate': 0.3, 'max_depth': 6, 'n_estimators': 100, 'random_state': True, 'subsample': 1}, '__version__': 1}</properties>
+		<properties node_id="14" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'learner_name': '', 'method_index': 0, 'savedWidgetGeometry': None, 'catgb_editor': {'colsample_bylevel': 1, 'lambda_index': 55, 'learning_rate': 0.3, 'max_depth': 6, 'n_estimators': 100, 'random_state': True}, 'gb_editor': {'learning_rate': 0.1, 'max_depth': 3, 'min_samples_split': 2, 'n_estimators': 100, 'random_state': True, 'subsample': 1}, 'xgb_editor': {'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'lambda_index': 53, 'learning_rate': 0.3, 'max_depth': 6, 'n_estimators': 100, 'random_state': True, 'subsample': 1}, 'xgbrf_editor': {'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'lambda_index': 53, 'learning_rate': 0.3, 'max_depth': 6, 'n_estimators': 100, 'random_state': True, 'subsample': 1}, '__version__': 1}</properties>
+		<properties node_id="15" format="pickle">gASVdgwAAAAAAAB9lCiMCmF1dG9Db21taXSUiIwSY29udHJvbEFyZWFWaXNpYmxllIiMCWltYWdl
+U2l6ZZRNNAGME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAjAAAADcAAAGNwAAAzMA
+AAIwAAAA3AAABjcAAAMzAAAAAAAAAAAHgAAAAjAAAADcAAAGNwAAAzOUjAtfX3ZlcnNpb25fX5RL
+AowQY29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSU
+k5QpgZR9lCiMBnZhbHVlc5R9lCiMCmltYWdlX2F0dHKUjAVpbWFnZZRLZ4aUjA5zZWxlY3RlZF9p
+dGVtc5SPlEr+////hpSMCnRpdGxlX2F0dHKUjAhjYXRlZ29yeZRLZYaUaAZLAnWMCmF0dHJpYnV0
+ZXOUfZQojBQxMSAtIGxlZnQgc2hvdWxkZXIgeJRLAowUMTEgLSBsZWZ0IHNob3VsZGVyIHmUSwKM
+FTEyIC0gcmlnaHQgc2hvdWxkZXIgeJRLAowVMTIgLSByaWdodCBzaG91bGRlciB5lEsCjBExMyAt
+IGxlZnQgZWxib3cgeJRLAowRMTMgLSBsZWZ0IGVsYm93IHmUSwKMEjE0IC0gcmlnaHQgZWxib3cg
+eJRLAowSMTQgLSByaWdodCBlbGJvdyB5lEsCjBExNSAtIGxlZnQgd3Jpc3QgeJRLAowRMTUgLSBs
+ZWZ0IHdyaXN0IHmUSwKMEjE2IC0gcmlnaHQgd3Jpc3QgeJRLAowSMTYgLSByaWdodCB3cmlzdCB5
+lEsCjA8yMyAtIGxlZnQgaGlwIHiUSwKMDzIzIC0gbGVmdCBoaXAgeZRLAowQMjQgLSByaWdodCBo
+aXAgeJRLAowQMjQgLSByaWdodCBoaXAgeZRLAmgXSwF1jAVtZXRhc5R9lCiMCmltYWdlIG5hbWWU
+SwNoEUsDjARzaXpllEsCjAZoZWlnaHSUSwKMBXdpZHRolEsCjA1jYXRlZ29yeShTVk0plEsBjAdw
+KGRvd24plEsCjAdwKGxlZnQplEsCjAhwKHJpZ2h0KZRLAowHcChzdG9wKZRLAowFcCh1cCmUSwJ1
+dWJoCymBlH2UKGgOfZQoaBBoEUtnhpRoE4+USv7///+GlGgWaBdLZYaUaAZLAnVoGX2UKGgbSwJo
+HEsCaB1LAmgeSwJoH0sCaCBLAmghSwJoIksCaCNLAmgkSwJoJUsCaCZLAmgnSwJoKEsCaClLAmgq
+SwJoF0sBdWgrfZQoaC1LA2gRSwNoLksCaC9LAmgwSwKMGGNhdGVnb3J5KE5ldXJhbCBOZXR3b3Jr
+KZRLAYwHcChkb3duKZRLAowHcChsZWZ0KZRLAowIcChyaWdodCmUSwKMB3Aoc3RvcCmUSwKMBXAo
+dXAplEsCdXViaAspgZR9lChoDn2UKGgQaBFLZ4aUaBOPlEr+////hpRoFmgXS2WGlGgGSwJ1aBl9
+lChoG0sCaBxLAmgdSwJoHksCaB9LAmggSwJoIUsCaCJLAmgjSwJoJEsCaCVLAmgmSwJoF0sBdWgr
+fZQoaC1LA2gRSwNoLksCaC9LAmgwSwKMGGNhdGVnb3J5KE5ldXJhbCBOZXR3b3JrKZRLAYwHcChk
+b3duKZRLAowHcChsZWZ0KZRLAowIcChyaWdodCmUSwKMB3Aoc3RvcCmUSwKMBXAodXAplEsCdXVi
+aAspgZR9lChoDn2UKGgQaBFLZ4aUaBOPlEr+////hpRoFmgXS2WGlGgGSwJ1aBl9lCiMCjAgLSBu
+b3NlIHiUSwKMCjAgLSBub3NlIHmUSwKMFjEgLSBsZWZ0IGV5ZSAoaW5uZXIpIHiUSwKMFjEgLSBs
+ZWZ0IGV5ZSAoaW5uZXIpIHmUSwKMDjIgLSBsZWZ0IGV5ZSB4lEsCjA4yIC0gbGVmdCBleWUgeZRL
+AowWMyAtIGxlZnQgZXllIChvdXRlcikgeJRLAowWMyAtIGxlZnQgZXllIChvdXRlcikgeZRLAowX
+NCAtIHJpZ2h0IGV5ZSAoaW5uZXIpIHiUSwKMFzQgLSByaWdodCBleWUgKGlubmVyKSB5lEsCjA81
+IC0gcmlnaHQgZXllIHiUSwKMDzUgLSByaWdodCBleWUgeZRLAowXNiAtIHJpZ2h0IGV5ZSAob3V0
+ZXIpIHiUSwKMFzYgLSByaWdodCBleWUgKG91dGVyKSB5lEsCjA43IC0gbGVmdCBlYXIgeJRLAowO
+NyAtIGxlZnQgZWFyIHmUSwKMDzggLSByaWdodCBlYXIgeJRLAowPOCAtIHJpZ2h0IGVhciB5lEsC
+jBI5IC0gbW91dGggKGxlZnQpIHiUSwKMEjkgLSBtb3V0aCAobGVmdCkgeZRLAowUMTAgLSBtb3V0
+aCAocmlnaHQpIHiUSwKMFDEwIC0gbW91dGggKHJpZ2h0KSB5lEsCjBQxMSAtIGxlZnQgc2hvdWxk
+ZXIgeJRLAowUMTEgLSBsZWZ0IHNob3VsZGVyIHmUSwKMFTEyIC0gcmlnaHQgc2hvdWxkZXIgeJRL
+AowVMTIgLSByaWdodCBzaG91bGRlciB5lEsCjBExMyAtIGxlZnQgZWxib3cgeJRLAowRMTMgLSBs
+ZWZ0IGVsYm93IHmUSwKMEjE0IC0gcmlnaHQgZWxib3cgeJRLAowSMTQgLSByaWdodCBlbGJvdyB5
+lEsCjBExNSAtIGxlZnQgd3Jpc3QgeJRLAowRMTUgLSBsZWZ0IHdyaXN0IHmUSwKMEjE2IC0gcmln
+aHQgd3Jpc3QgeJRLAowSMTYgLSByaWdodCB3cmlzdCB5lEsCjBExNyAtIGxlZnQgcGlua3kgeJRL
+AowRMTcgLSBsZWZ0IHBpbmt5IHmUSwKMEjE4IC0gcmlnaHQgcGlua3kgeJRLAowSMTggLSByaWdo
+dCBwaW5reSB5lEsCjBExOSAtIGxlZnQgaW5kZXggeJRLAowRMTkgLSBsZWZ0IGluZGV4IHmUSwKM
+EjIwIC0gcmlnaHQgaW5kZXggeJRLAowSMjAgLSByaWdodCBpbmRleCB5lEsCjBEyMSAtIGxlZnQg
+dGh1bWIgeJRLAowRMjEgLSBsZWZ0IHRodW1iIHmUSwKMEjIyIC0gcmlnaHQgdGh1bWIgeJRLAowS
+MjIgLSByaWdodCB0aHVtYiB5lEsCjA8yMyAtIGxlZnQgaGlwIHiUSwKMDzIzIC0gbGVmdCBoaXAg
+eZRLAowQMjQgLSByaWdodCBoaXAgeJRLAowQMjQgLSByaWdodCBoaXAgeZRLAowQMjUgLSBsZWZ0
+IGtuZWUgeJRLAowQMjUgLSBsZWZ0IGtuZWUgeZRLAowRMjYgLSByaWdodCBrbmVlIHiUSwKMETI2
+IC0gcmlnaHQga25lZSB5lEsCjBEyNyAtIGxlZnQgYW5rbGUgeJRLAowRMjcgLSBsZWZ0IGFua2xl
+IHmUSwKMEjI4IC0gcmlnaHQgYW5rbGUgeJRLAowSMjggLSByaWdodCBhbmtsZSB5lEsCjBAyOSAt
+IGxlZnQgaGVlbCB4lEsCjBAyOSAtIGxlZnQgaGVlbCB5lEsCjBEzMCAtIHJpZ2h0IGhlZWwgeJRL
+AowRMzAgLSByaWdodCBoZWVsIHmUSwKMFjMxIC0gbGVmdCBmb290IGluZGV4IHiUSwKMFjMxIC0g
+bGVmdCBmb290IGluZGV4IHmUSwKMFzMyIC0gcmlnaHQgZm9vdCBpbmRleCB4lEsCjBczMiAtIHJp
+Z2h0IGZvb3QgaW5kZXggeZRLAmgXSwF1aCt9lChoLUsDaBFLA2guSwJoMEsCaC9LAowYY2F0ZWdv
+cnkoTmV1cmFsIE5ldHdvcmsplEsBjAdwKGRvd24plEsCjAdwKGxlZnQplEsCjAhwKHJpZ2h0KZRL
+AowHcChzdG9wKZRLAowFcCh1cCmUSwJ1dWJoCymBlH2UKGgOfZQoaBBoEUtnhpRoE4+USv7///+G
+lGgWaBdLZYaUaAZLAnVoGX2UKGgbSwJoHEsCaB1LAmgeSwJoH0sCaCBLAmghSwJoIksCaCNLAmgk
+SwJoJUsCaCZLAmgXSwF1aCt9lChoLUsDaBFLA2guSwJoL0sCaDBLAowNY2F0ZWdvcnkoU1ZNKZRL
+AYwHcChkb3duKZRLAowHcChsZWZ0KZRLAowIcChyaWdodCmUSwKMB3Aoc3RvcCmUSwKMBXAodXAp
+lEsCdXViZXUu
+</properties>
+		<properties node_id="16" format="pickle">gASV+AoAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
+cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAAAAAAAX
+AAAHfwAABA8AAAAAAAAAFwAAB38AAAQPAAAAAAIAAAAHgAAAAAAAAAAXAAAHfwAABA+UjBJ1c2Vf
+aW5wdXRfZmVhdHVyZXOUiYwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9y
+YW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMEWRvbWFp
+bl9yb2xlX2hpbnRzlH2UKIwKMCAtIG5vc2UgeJRLAoaUjAlhdmFpbGFibGWUSwCGlIwKMCAtIG5v
+c2UgeZRLAoaUaBVLAYaUjBYxIC0gbGVmdCBleWUgKGlubmVyKSB4lEsChpRoFUsChpSMFjEgLSBs
+ZWZ0IGV5ZSAoaW5uZXIpIHmUSwKGlGgVSwOGlIwOMiAtIGxlZnQgZXllIHiUSwKGlGgVSwSGlIwO
+MiAtIGxlZnQgZXllIHmUSwKGlGgVSwWGlIwWMyAtIGxlZnQgZXllIChvdXRlcikgeJRLAoaUaBVL
+BoaUjBYzIC0gbGVmdCBleWUgKG91dGVyKSB5lEsChpRoFUsHhpSMFzQgLSByaWdodCBleWUgKGlu
+bmVyKSB4lEsChpRoFUsIhpSMFzQgLSByaWdodCBleWUgKGlubmVyKSB5lEsChpRoFUsJhpSMDzUg
+LSByaWdodCBleWUgeJRLAoaUaBVLCoaUjA81IC0gcmlnaHQgZXllIHmUSwKGlGgVSwuGlIwXNiAt
+IHJpZ2h0IGV5ZSAob3V0ZXIpIHiUSwKGlGgVSwyGlIwXNiAtIHJpZ2h0IGV5ZSAob3V0ZXIpIHmU
+SwKGlGgVSw2GlIwONyAtIGxlZnQgZWFyIHiUSwKGlGgVSw6GlIwONyAtIGxlZnQgZWFyIHmUSwKG
+lGgVSw+GlIwPOCAtIHJpZ2h0IGVhciB4lEsChpRoFUsQhpSMDzggLSByaWdodCBlYXIgeZRLAoaU
+aBVLEYaUjBI5IC0gbW91dGggKGxlZnQpIHiUSwKGlGgVSxKGlIwSOSAtIG1vdXRoIChsZWZ0KSB5
+lEsChpRoFUsThpSMFDEwIC0gbW91dGggKHJpZ2h0KSB4lEsChpRoFUsUhpSMFDEwIC0gbW91dGgg
+KHJpZ2h0KSB5lEsChpRoFUsVhpSMETE3IC0gbGVmdCBwaW5reSB4lEsChpRoFUsWhpSMETE3IC0g
+bGVmdCBwaW5reSB5lEsChpRoFUsXhpSMEjE4IC0gcmlnaHQgcGlua3kgeJRLAoaUaBVLGIaUjBIx
+OCAtIHJpZ2h0IHBpbmt5IHmUSwKGlGgVSxmGlIwRMTkgLSBsZWZ0IGluZGV4IHiUSwKGlGgVSxqG
+lIwRMTkgLSBsZWZ0IGluZGV4IHmUSwKGlGgVSxuGlIwSMjAgLSByaWdodCBpbmRleCB4lEsChpRo
+FUschpSMEjIwIC0gcmlnaHQgaW5kZXggeZRLAoaUaBVLHYaUjBEyMSAtIGxlZnQgdGh1bWIgeJRL
+AoaUaBVLHoaUjBEyMSAtIGxlZnQgdGh1bWIgeZRLAoaUaBVLH4aUjBIyMiAtIHJpZ2h0IHRodW1i
+IHiUSwKGlGgVSyCGlIwSMjIgLSByaWdodCB0aHVtYiB5lEsChpRoFUshhpSMEDI1IC0gbGVmdCBr
+bmVlIHiUSwKGlGgVSyKGlIwQMjUgLSBsZWZ0IGtuZWUgeZRLAoaUaBVLI4aUjBEyNiAtIHJpZ2h0
+IGtuZWUgeJRLAoaUaBVLJIaUjBEyNiAtIHJpZ2h0IGtuZWUgeZRLAoaUaBVLJYaUjBEyNyAtIGxl
+ZnQgYW5rbGUgeJRLAoaUaBVLJoaUjBEyNyAtIGxlZnQgYW5rbGUgeZRLAoaUaBVLJ4aUjBIyOCAt
+IHJpZ2h0IGFua2xlIHiUSwKGlGgVSyiGlIwSMjggLSByaWdodCBhbmtsZSB5lEsChpRoFUsphpSM
+EDI5IC0gbGVmdCBoZWVsIHiUSwKGlGgVSyqGlIwQMjkgLSBsZWZ0IGhlZWwgeZRLAoaUaBVLK4aU
+jBEzMCAtIHJpZ2h0IGhlZWwgeJRLAoaUaBVLLIaUjBEzMCAtIHJpZ2h0IGhlZWwgeZRLAoaUaBVL
+LYaUjBYzMSAtIGxlZnQgZm9vdCBpbmRleCB4lEsChpRoFUsuhpSMFjMxIC0gbGVmdCBmb290IGlu
+ZGV4IHmUSwKGlGgVSy+GlIwXMzIgLSByaWdodCBmb290IGluZGV4IHiUSwKGlGgVSzCGlIwXMzIg
+LSByaWdodCBmb290IGluZGV4IHmUSwKGlGgVSzGGlIwUMTEgLSBsZWZ0IHNob3VsZGVyIHiUSwKG
+lIwJYXR0cmlidXRllEsAhpSMFDExIC0gbGVmdCBzaG91bGRlciB5lEsChpRorEsBhpSMFTEyIC0g
+cmlnaHQgc2hvdWxkZXIgeJRLAoaUaKxLAoaUjBUxMiAtIHJpZ2h0IHNob3VsZGVyIHmUSwKGlGis
+SwOGlIwRMTMgLSBsZWZ0IGVsYm93IHiUSwKGlGisSwSGlIwRMTMgLSBsZWZ0IGVsYm93IHmUSwKG
+lGisSwWGlIwSMTQgLSByaWdodCBlbGJvdyB4lEsChpRorEsGhpSMEjE0IC0gcmlnaHQgZWxib3cg
+eZRLAoaUaKxLB4aUjBExNSAtIGxlZnQgd3Jpc3QgeJRLAoaUaKxLCIaUjBExNSAtIGxlZnQgd3Jp
+c3QgeZRLAoaUaKxLCYaUjBIxNiAtIHJpZ2h0IHdyaXN0IHiUSwKGlGisSwqGlIwSMTYgLSByaWdo
+dCB3cmlzdCB5lEsChpRorEsLhpSMDzIzIC0gbGVmdCBoaXAgeJRLAoaUaKxLDIaUjA8yMyAtIGxl
+ZnQgaGlwIHmUSwKGlGisSw2GlIwQMjQgLSByaWdodCBoaXAgeJRLAoaUaKxLDoaUjBAyNCAtIHJp
+Z2h0IGhpcCB5lEsChpRorEsPhpSMCGNhdGVnb3J5lEsBhpSMBWNsYXNzlEsAhpSMCmltYWdlIG5h
+bWWUSwOGlIwEbWV0YZRLAIaUjAVpbWFnZZRLA4aUaOFLAYaUjARzaXpllEsChpRo4UsChpSMBmhl
+aWdodJRLAoaUaOFLA4aUjAV3aWR0aJRLAoaUaOFLBIaUdUr+////hpRoB0sBdYwKYXR0cmlidXRl
+c5R9lChoE0sCaBdLAmgaSwJoHUsCaCBLAmgjSwJoJksCaClLAmgsSwJoL0sCaDJLAmg1SwJoOEsC
+aDtLAmg+SwJoQUsCaERLAmhHSwJoSksCaE1LAmhQSwJoU0sCaKpLAmiuSwJosUsCaLRLAmi3SwJo
+uksCaL1LAmjASwJow0sCaMZLAmjJSwJozEsCaFZLAmhZSwJoXEsCaF9LAmhiSwJoZUsCaGhLAmhr
+SwJobksCaHFLAmh0SwJod0sCaM9LAmjSSwJo1UsCaNhLAmh6SwJofUsCaIBLAmiDSwJohksCaIlL
+AmiMSwJoj0sCaJJLAmiVSwJomEsCaJtLAmieSwJooUsCaKRLAminSwJo20sBdYwFbWV0YXOUfZQo
+aN9LA2jjSwNo5ksCaOxLAmjpSwJ1dWJhdS4=
+</properties>
+		<properties node_id="17" format="pickle">gASV+AoAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
+cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAAAAAAAX
+AAAHfwAABA8AAAAAAAAAFwAAB38AAAQPAAAAAAIAAAAHgAAAAAAAAAAXAAAHfwAABA+UjBJ1c2Vf
+aW5wdXRfZmVhdHVyZXOUiYwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9y
+YW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMEWRvbWFp
+bl9yb2xlX2hpbnRzlH2UKIwKMCAtIG5vc2UgeJRLAoaUjAlhdmFpbGFibGWUSwCGlIwKMCAtIG5v
+c2UgeZRLAoaUaBVLAYaUjBYxIC0gbGVmdCBleWUgKGlubmVyKSB4lEsChpRoFUsChpSMFjEgLSBs
+ZWZ0IGV5ZSAoaW5uZXIpIHmUSwKGlGgVSwOGlIwOMiAtIGxlZnQgZXllIHiUSwKGlGgVSwSGlIwO
+MiAtIGxlZnQgZXllIHmUSwKGlGgVSwWGlIwWMyAtIGxlZnQgZXllIChvdXRlcikgeJRLAoaUaBVL
+BoaUjBYzIC0gbGVmdCBleWUgKG91dGVyKSB5lEsChpRoFUsHhpSMFzQgLSByaWdodCBleWUgKGlu
+bmVyKSB4lEsChpRoFUsIhpSMFzQgLSByaWdodCBleWUgKGlubmVyKSB5lEsChpRoFUsJhpSMDzUg
+LSByaWdodCBleWUgeJRLAoaUaBVLCoaUjA81IC0gcmlnaHQgZXllIHmUSwKGlGgVSwuGlIwXNiAt
+IHJpZ2h0IGV5ZSAob3V0ZXIpIHiUSwKGlGgVSwyGlIwXNiAtIHJpZ2h0IGV5ZSAob3V0ZXIpIHmU
+SwKGlGgVSw2GlIwONyAtIGxlZnQgZWFyIHiUSwKGlGgVSw6GlIwONyAtIGxlZnQgZWFyIHmUSwKG
+lGgVSw+GlIwPOCAtIHJpZ2h0IGVhciB4lEsChpRoFUsQhpSMDzggLSByaWdodCBlYXIgeZRLAoaU
+aBVLEYaUjBI5IC0gbW91dGggKGxlZnQpIHiUSwKGlGgVSxKGlIwSOSAtIG1vdXRoIChsZWZ0KSB5
+lEsChpRoFUsThpSMFDEwIC0gbW91dGggKHJpZ2h0KSB4lEsChpRoFUsUhpSMFDEwIC0gbW91dGgg
+KHJpZ2h0KSB5lEsChpRoFUsVhpSMETE3IC0gbGVmdCBwaW5reSB4lEsChpRoFUsWhpSMETE3IC0g
+bGVmdCBwaW5reSB5lEsChpRoFUsXhpSMEjE4IC0gcmlnaHQgcGlua3kgeJRLAoaUaBVLGIaUjBIx
+OCAtIHJpZ2h0IHBpbmt5IHmUSwKGlGgVSxmGlIwRMTkgLSBsZWZ0IGluZGV4IHiUSwKGlGgVSxqG
+lIwRMTkgLSBsZWZ0IGluZGV4IHmUSwKGlGgVSxuGlIwSMjAgLSByaWdodCBpbmRleCB4lEsChpRo
+FUschpSMEjIwIC0gcmlnaHQgaW5kZXggeZRLAoaUaBVLHYaUjBEyMSAtIGxlZnQgdGh1bWIgeJRL
+AoaUaBVLHoaUjBEyMSAtIGxlZnQgdGh1bWIgeZRLAoaUaBVLH4aUjBIyMiAtIHJpZ2h0IHRodW1i
+IHiUSwKGlGgVSyCGlIwSMjIgLSByaWdodCB0aHVtYiB5lEsChpRoFUshhpSMEDI1IC0gbGVmdCBr
+bmVlIHiUSwKGlGgVSyKGlIwQMjUgLSBsZWZ0IGtuZWUgeZRLAoaUaBVLI4aUjBEyNiAtIHJpZ2h0
+IGtuZWUgeJRLAoaUaBVLJIaUjBEyNiAtIHJpZ2h0IGtuZWUgeZRLAoaUaBVLJYaUjBEyNyAtIGxl
+ZnQgYW5rbGUgeJRLAoaUaBVLJoaUjBEyNyAtIGxlZnQgYW5rbGUgeZRLAoaUaBVLJ4aUjBIyOCAt
+IHJpZ2h0IGFua2xlIHiUSwKGlGgVSyiGlIwSMjggLSByaWdodCBhbmtsZSB5lEsChpRoFUsphpSM
+EDI5IC0gbGVmdCBoZWVsIHiUSwKGlGgVSyqGlIwQMjkgLSBsZWZ0IGhlZWwgeZRLAoaUaBVLK4aU
+jBEzMCAtIHJpZ2h0IGhlZWwgeJRLAoaUaBVLLIaUjBEzMCAtIHJpZ2h0IGhlZWwgeZRLAoaUaBVL
+LYaUjBYzMSAtIGxlZnQgZm9vdCBpbmRleCB4lEsChpRoFUsuhpSMFjMxIC0gbGVmdCBmb290IGlu
+ZGV4IHmUSwKGlGgVSy+GlIwXMzIgLSByaWdodCBmb290IGluZGV4IHiUSwKGlGgVSzCGlIwXMzIg
+LSByaWdodCBmb290IGluZGV4IHmUSwKGlGgVSzGGlIwUMTEgLSBsZWZ0IHNob3VsZGVyIHiUSwKG
+lIwJYXR0cmlidXRllEsAhpSMFDExIC0gbGVmdCBzaG91bGRlciB5lEsChpRorEsBhpSMFTEyIC0g
+cmlnaHQgc2hvdWxkZXIgeJRLAoaUaKxLAoaUjBUxMiAtIHJpZ2h0IHNob3VsZGVyIHmUSwKGlGis
+SwOGlIwRMTMgLSBsZWZ0IGVsYm93IHiUSwKGlGisSwSGlIwRMTMgLSBsZWZ0IGVsYm93IHmUSwKG
+lGisSwWGlIwSMTQgLSByaWdodCBlbGJvdyB4lEsChpRorEsGhpSMEjE0IC0gcmlnaHQgZWxib3cg
+eZRLAoaUaKxLB4aUjBExNSAtIGxlZnQgd3Jpc3QgeJRLAoaUaKxLCIaUjBExNSAtIGxlZnQgd3Jp
+c3QgeZRLAoaUaKxLCYaUjBIxNiAtIHJpZ2h0IHdyaXN0IHiUSwKGlGisSwqGlIwSMTYgLSByaWdo
+dCB3cmlzdCB5lEsChpRorEsLhpSMDzIzIC0gbGVmdCBoaXAgeJRLAoaUaKxLDIaUjA8yMyAtIGxl
+ZnQgaGlwIHmUSwKGlGisSw2GlIwQMjQgLSByaWdodCBoaXAgeJRLAoaUaKxLDoaUjBAyNCAtIHJp
+Z2h0IGhpcCB5lEsChpRorEsPhpSMCGNhdGVnb3J5lEsBhpSMBWNsYXNzlEsAhpSMCmltYWdlIG5h
+bWWUSwOGlIwEbWV0YZRLAIaUjAVpbWFnZZRLA4aUaOFLAYaUjARzaXpllEsChpRo4UsChpSMBmhl
+aWdodJRLAoaUaOFLA4aUjAV3aWR0aJRLAoaUaOFLBIaUdUr+////hpRoB0sBdYwKYXR0cmlidXRl
+c5R9lChoE0sCaBdLAmgaSwJoHUsCaCBLAmgjSwJoJksCaClLAmgsSwJoL0sCaDJLAmg1SwJoOEsC
+aDtLAmg+SwJoQUsCaERLAmhHSwJoSksCaE1LAmhQSwJoU0sCaKpLAmiuSwJosUsCaLRLAmi3SwJo
+uksCaL1LAmjASwJow0sCaMZLAmjJSwJozEsCaFZLAmhZSwJoXEsCaF9LAmhiSwJoZUsCaGhLAmhr
+SwJobksCaHFLAmh0SwJod0sCaM9LAmjSSwJo1UsCaNhLAmh6SwJofUsCaIBLAmiDSwJohksCaIlL
+AmiMSwJoj0sCaJJLAmiVSwJomEsCaJtLAmieSwJooUsCaKRLAminSwJo20sBdYwFbWV0YXOUfZQo
+aN9LA2jjSwNo5ksCaOxLAmjpSwJ1dWJhdS4=
+</properties>
+		<properties node_id="18" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\x07\x80\x00\x00\x04\x10\x00\x00\x020\x00\x00\x01\x0e\x00\x00\x07Q\x00\x00\x03\x01\x00\x00\x00\x00\x02\x00\x00\x00\x07\x80\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x07\x7f\x00\x00\x04\x0f', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="19" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01=\x00\x00\x00\xf5\x00\x00\x04]\x00\x00\x03L\x00\x00\x01=\x00\x00\x00\xf5\x00\x00\x04]\x00\x00\x03L\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01=\x00\x00\x00\xf5\x00\x00\x04]\x00\x00\x03L', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\nprint(in_data)\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}, {'name': 'mediapipe_pose', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\nimport mediapipe as mp\nimport cv2\n\n\nstaticImageMode=False\nmodelComplexity=1\nsmoothLandmarks=True\nenableSegmentation=False\nsmoothSegmentation=True\nminDetectionConfidence=0.5\nminTrackingConfidence=0.5\n\nmpPose = mp.solutions.pose\npose = mpPose.Pose(staticImageMode, modelComplexity, smoothLandmarks, enableSegmentation, smoothSegmentation, minDetectionConfidence, minTrackingConfidence)\n\n#print(in_data)\n\noutput = []\n\norigin = in_data.domain["image"].attributes["origin"]\n\nfor img in in_data:\n    image = cv2.imread(origin + "/" + img["image"].value)\n    imgRGB = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)\n    results = pose.process(imgRGB)\n    out_img = []\n    for landmark in results.pose_landmarks.landmark:\n        out_img.append(landmark.x)\n        out_img.append(landmark.y)\n    #out_img.append(img["category"].value)\n    output.append(out_img)\n\noutput_arr = np.array(output)\n\ndomain = Domain([\n    ContinuousVariable("0 - nose x"),\n    ContinuousVariable("0 - nose y"),\n    ContinuousVariable("1 - left eye (inner) x"),\n    ContinuousVariable("1 - left eye (inner) y"),\n    ContinuousVariable("2 - left eye x"),\n    ContinuousVariable("2 - left eye y"),\n    ContinuousVariable("3 - left eye (outer) x"),\n    ContinuousVariable("3 - left eye (outer) y"),\n    ContinuousVariable("4 - right eye (inner) x"),\n    ContinuousVariable("4 - right eye (inner) y"),\n    ContinuousVariable("5 - right eye x"),\n    ContinuousVariable("5 - right eye y"),\n    ContinuousVariable("6 - right eye (outer) x"),\n    ContinuousVariable("6 - right eye (outer) y"),\n    ContinuousVariable("7 - left ear x"),\n    ContinuousVariable("7 - left ear y"),\n    ContinuousVariable("8 - right ear x"),\n    ContinuousVariable("8 - right ear y"),\n    ContinuousVariable("9 - mouth (left) x"),\n    ContinuousVariable("9 - mouth (left) y"),\n    ContinuousVariable("10 - mouth (right) x"),\n    ContinuousVariable("10 - mouth (right) y"),\n    ContinuousVariable("11 - left shoulder x"),\n    ContinuousVariable("11 - left shoulder y"),\n    ContinuousVariable("12 - right shoulder x"),\n    ContinuousVariable("12 - right shoulder y"),\n    ContinuousVariable("13 - left elbow x"),\n    ContinuousVariable("13 - left elbow y"),\n    ContinuousVariable("14 - right elbow x"),\n    ContinuousVariable("14 - right elbow y"),\n    ContinuousVariable("15 - left wrist x"),\n    ContinuousVariable("15 - left wrist y"),\n    ContinuousVariable("16 - right wrist x"),\n    ContinuousVariable("16 - right wrist y"),\n    ContinuousVariable("17 - left pinky x"),\n    ContinuousVariable("17 - left pinky y"),\n    ContinuousVariable("18 - right pinky x"),\n    ContinuousVariable("18 - right pinky y"),\n    ContinuousVariable("19 - left index x"),\n    ContinuousVariable("19 - left index y"),\n    ContinuousVariable("20 - right index x"),\n    ContinuousVariable("20 - right index y"),\n    ContinuousVariable("21 - left thumb x"),\n    ContinuousVariable("21 - left thumb y"),\n    ContinuousVariable("22 - right thumb x"),\n    ContinuousVariable("22 - right thumb y"),\n    ContinuousVariable("23 - left hip x"),\n    ContinuousVariable("23 - left hip y"),\n    ContinuousVariable("24 - right hip x"),\n    ContinuousVariable("24 - right hip y"),\n    ContinuousVariable("25 - left knee x"),\n    ContinuousVariable("25 - left knee y"),\n    ContinuousVariable("26 - right knee x"),\n    ContinuousVariable("26 - right knee y"),\n    ContinuousVariable("27 - left ankle x"),\n    ContinuousVariable("27 - left ankle y"),\n    ContinuousVariable("28 - right ankle x"),\n    ContinuousVariable("28 - right ankle y"),\n    ContinuousVariable("29 - left heel x"),\n    ContinuousVariable("29 - left heel y"),\n    ContinuousVariable("30 - right heel x"),\n    ContinuousVariable("30 - right heel y"),\n    ContinuousVariable("31 - left foot index x"),\n    ContinuousVariable("31 - left foot index y"),\n    ContinuousVariable("32 - right foot index x"),\n    ContinuousVariable("32 - right foot index y"),\n], class_vars=in_data.domain.class_vars, metas=in_data.domain.metas)\n\nout_data = Table.from_numpy(domain, output_arr, Y=in_data.Y, metas=in_data.metas)\n', 'filename': None}, {'name': 'New script', 'script': 'import numpy as np\n\nout_data = in_data.copy()\n\nout_data.X[:,2] = out_data.X[:,2] - out_data.X[:,0]\nout_data.X[:,4] = out_data.X[:,4] - out_data.X[:,0]\nout_data.X[:,6] = out_data.X[:,6] - out_data.X[:,0]\nout_data.X[:,8] = out_data.X[:,8] - out_data.X[:,0]\nout_data.X[:,10] = out_data.X[:,10] - out_data.X[:,0]\nout_data.X[:,12] = out_data.X[:,12] - out_data.X[:,0]\nout_data.X[:,14] = out_data.X[:,14] - out_data.X[:,0]\n\nout_data.X[:,1] = out_data.X[:,1] - out_data.X[:,0]\nout_data.X[:,3] = out_data.X[:,3] - out_data.X[:,0]\nout_data.X[:,5] = out_data.X[:,5] - out_data.X[:,0]\nout_data.X[:,7] = out_data.X[:,7] - out_data.X[:,0]\nout_data.X[:,9] = out_data.X[:,9] - out_data.X[:,0]\nout_data.X[:,11] = out_data.X[:,11] - out_data.X[:,0]\nout_data.X[:,13] = out_data.X[:,13] - out_data.X[:,0]\nout_data.X[:,15] = out_data.X[:,15] - out_data.X[:,0]\n\nout_data.X[:,0] = out_data.X[:,0] - out_data.X[:,0]\nout_data.X[:,1] = out_data.X[:,1] - out_data.X[:,1]\n', 'filename': None}], 'scriptText': 'import numpy as np\n\nout_data = in_data.copy()\n\nout_data.X[:,2] = out_data.X[:,2] - out_data.X[:,0]\nout_data.X[:,4] = out_data.X[:,4] - out_data.X[:,0]\nout_data.X[:,6] = out_data.X[:,6] - out_data.X[:,0]\nout_data.X[:,8] = out_data.X[:,8] - out_data.X[:,0]\nout_data.X[:,10] = out_data.X[:,10] - out_data.X[:,0]\nout_data.X[:,12] = out_data.X[:,12] - out_data.X[:,0]\nout_data.X[:,14] = out_data.X[:,14] - out_data.X[:,0]\n\nout_data.X[:,1] = out_data.X[:,1] - out_data.X[:,0]\nout_data.X[:,3] = out_data.X[:,3] - out_data.X[:,0]\nout_data.X[:,5] = out_data.X[:,5] - out_data.X[:,0]\nout_data.X[:,7] = out_data.X[:,7] - out_data.X[:,0]\nout_data.X[:,9] = out_data.X[:,9] - out_data.X[:,0]\nout_data.X[:,11] = out_data.X[:,11] - out_data.X[:,0]\nout_data.X[:,13] = out_data.X[:,13] - out_data.X[:,0]\nout_data.X[:,15] = out_data.X[:,15] - out_data.X[:,0]\n\nout_data.X[:,0] = out_data.X[:,0] - out_data.X[:,0]\nout_data.X[:,1] = out_data.X[:,1] - out_data.X[:,1]\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x9f\x00\x00\x00`\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="20" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01=\x00\x00\x00\xf5\x00\x00\x04]\x00\x00\x03L\x00\x00\x01=\x00\x00\x00\xf5\x00\x00\x04]\x00\x00\x03L\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01=\x00\x00\x00\xf5\x00\x00\x04]\x00\x00\x03L', 'scriptLibrary': [{'name': 'Table from numpy', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\nprint(in_data)\ndomain = Domain([ContinuousVariable("age"),\n                 ContinuousVariable("height"),\n                 DiscreteVariable("gender", values=("M", "F"))])\narr = np.array([\n  [25, 186, 0],\n  [30, 164, 1]])\nout_data = Table.from_numpy(domain, arr)\n', 'filename': None}, {'name': 'mediapipe_pose', 'script': 'import numpy as np\nfrom Orange.data import Table, Domain, ContinuousVariable, DiscreteVariable\n\nimport mediapipe as mp\nimport cv2\n\n\nstaticImageMode=False\nmodelComplexity=1\nsmoothLandmarks=True\nenableSegmentation=False\nsmoothSegmentation=True\nminDetectionConfidence=0.5\nminTrackingConfidence=0.5\n\nmpPose = mp.solutions.pose\npose = mpPose.Pose(staticImageMode, modelComplexity, smoothLandmarks, enableSegmentation, smoothSegmentation, minDetectionConfidence, minTrackingConfidence)\n\n#print(in_data)\n\noutput = []\n\norigin = in_data.domain["image"].attributes["origin"]\n\nfor img in in_data:\n    image = cv2.imread(origin + "/" + img["image"].value)\n    imgRGB = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)\n    results = pose.process(imgRGB)\n    out_img = []\n    for landmark in results.pose_landmarks.landmark:\n        out_img.append(landmark.x)\n        out_img.append(landmark.y)\n    #out_img.append(img["category"].value)\n    output.append(out_img)\n\noutput_arr = np.array(output)\n\ndomain = Domain([\n    ContinuousVariable("0 - nose x"),\n    ContinuousVariable("0 - nose y"),\n    ContinuousVariable("1 - left eye (inner) x"),\n    ContinuousVariable("1 - left eye (inner) y"),\n    ContinuousVariable("2 - left eye x"),\n    ContinuousVariable("2 - left eye y"),\n    ContinuousVariable("3 - left eye (outer) x"),\n    ContinuousVariable("3 - left eye (outer) y"),\n    ContinuousVariable("4 - right eye (inner) x"),\n    ContinuousVariable("4 - right eye (inner) y"),\n    ContinuousVariable("5 - right eye x"),\n    ContinuousVariable("5 - right eye y"),\n    ContinuousVariable("6 - right eye (outer) x"),\n    ContinuousVariable("6 - right eye (outer) y"),\n    ContinuousVariable("7 - left ear x"),\n    ContinuousVariable("7 - left ear y"),\n    ContinuousVariable("8 - right ear x"),\n    ContinuousVariable("8 - right ear y"),\n    ContinuousVariable("9 - mouth (left) x"),\n    ContinuousVariable("9 - mouth (left) y"),\n    ContinuousVariable("10 - mouth (right) x"),\n    ContinuousVariable("10 - mouth (right) y"),\n    ContinuousVariable("11 - left shoulder x"),\n    ContinuousVariable("11 - left shoulder y"),\n    ContinuousVariable("12 - right shoulder x"),\n    ContinuousVariable("12 - right shoulder y"),\n    ContinuousVariable("13 - left elbow x"),\n    ContinuousVariable("13 - left elbow y"),\n    ContinuousVariable("14 - right elbow x"),\n    ContinuousVariable("14 - right elbow y"),\n    ContinuousVariable("15 - left wrist x"),\n    ContinuousVariable("15 - left wrist y"),\n    ContinuousVariable("16 - right wrist x"),\n    ContinuousVariable("16 - right wrist y"),\n    ContinuousVariable("17 - left pinky x"),\n    ContinuousVariable("17 - left pinky y"),\n    ContinuousVariable("18 - right pinky x"),\n    ContinuousVariable("18 - right pinky y"),\n    ContinuousVariable("19 - left index x"),\n    ContinuousVariable("19 - left index y"),\n    ContinuousVariable("20 - right index x"),\n    ContinuousVariable("20 - right index y"),\n    ContinuousVariable("21 - left thumb x"),\n    ContinuousVariable("21 - left thumb y"),\n    ContinuousVariable("22 - right thumb x"),\n    ContinuousVariable("22 - right thumb y"),\n    ContinuousVariable("23 - left hip x"),\n    ContinuousVariable("23 - left hip y"),\n    ContinuousVariable("24 - right hip x"),\n    ContinuousVariable("24 - right hip y"),\n    ContinuousVariable("25 - left knee x"),\n    ContinuousVariable("25 - left knee y"),\n    ContinuousVariable("26 - right knee x"),\n    ContinuousVariable("26 - right knee y"),\n    ContinuousVariable("27 - left ankle x"),\n    ContinuousVariable("27 - left ankle y"),\n    ContinuousVariable("28 - right ankle x"),\n    ContinuousVariable("28 - right ankle y"),\n    ContinuousVariable("29 - left heel x"),\n    ContinuousVariable("29 - left heel y"),\n    ContinuousVariable("30 - right heel x"),\n    ContinuousVariable("30 - right heel y"),\n    ContinuousVariable("31 - left foot index x"),\n    ContinuousVariable("31 - left foot index y"),\n    ContinuousVariable("32 - right foot index x"),\n    ContinuousVariable("32 - right foot index y"),\n], class_vars=in_data.domain.class_vars, metas=in_data.domain.metas)\n\nout_data = Table.from_numpy(domain, output_arr, Y=in_data.Y, metas=in_data.metas)\n', 'filename': None}, {'name': 'New script', 'script': 'import numpy as np\n\nout_data = in_data.copy()\n\nout_data.X[:,2] = out_data.X[:,2] - out_data.X[:,0]\nout_data.X[:,4] = out_data.X[:,4] - out_data.X[:,0]\nout_data.X[:,6] = out_data.X[:,6] - out_data.X[:,0]\nout_data.X[:,8] = out_data.X[:,8] - out_data.X[:,0]\nout_data.X[:,10] = out_data.X[:,10] - out_data.X[:,0]\nout_data.X[:,12] = out_data.X[:,12] - out_data.X[:,0]\n\nout_data.X[:,1] = out_data.X[:,1] - out_data.X[:,0]\nout_data.X[:,3] = out_data.X[:,3] - out_data.X[:,0]\nout_data.X[:,5] = out_data.X[:,5] - out_data.X[:,0]\nout_data.X[:,7] = out_data.X[:,7] - out_data.X[:,0]\nout_data.X[:,9] = out_data.X[:,9] - out_data.X[:,0]\nout_data.X[:,11] = out_data.X[:,11] - out_data.X[:,0]\n\nout_data.X[:,0] = out_data.X[:,0] - out_data.X[:,0]\nout_data.X[:,1] = out_data.X[:,1] - out_data.X[:,1]\n', 'filename': None}], 'scriptText': 'import numpy as np\n\nout_data = in_data.copy()\n\nout_data.X[:,2] = out_data.X[:,2] - out_data.X[:,0]\nout_data.X[:,4] = out_data.X[:,4] - out_data.X[:,0]\nout_data.X[:,6] = out_data.X[:,6] - out_data.X[:,0]\nout_data.X[:,8] = out_data.X[:,8] - out_data.X[:,0]\nout_data.X[:,10] = out_data.X[:,10] - out_data.X[:,0]\nout_data.X[:,12] = out_data.X[:,12] - out_data.X[:,0]\n\nout_data.X[:,1] = out_data.X[:,1] - out_data.X[:,0]\nout_data.X[:,3] = out_data.X[:,3] - out_data.X[:,0]\nout_data.X[:,5] = out_data.X[:,5] - out_data.X[:,0]\nout_data.X[:,7] = out_data.X[:,7] - out_data.X[:,0]\nout_data.X[:,9] = out_data.X[:,9] - out_data.X[:,0]\nout_data.X[:,11] = out_data.X[:,11] - out_data.X[:,0]\n\nout_data.X[:,0] = out_data.X[:,0] - out_data.X[:,0]\nout_data.X[:,1] = out_data.X[:,1] - out_data.X[:,1]\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x9f\x00\x00\x00`\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
 	</node_properties>
 	<session_state>
 		<window_groups />

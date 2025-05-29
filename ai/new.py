@@ -6,7 +6,7 @@ import requests
 
 from tensorflow.lite.python.interpreter import Interpreter
 
-interpreter = Interpreter(model_path="tflite-model/tflite_learn_4.tflite")
+interpreter = Interpreter(model_path="ai/tflite-model/tflite_learn_4.tflite")
 interpreter.allocate_tensors()
 
 print(interpreter.get_input_details())
@@ -18,7 +18,7 @@ stream.set(3, 640)
 stream.set(4, 480)
 
 def send_command(command):
-    r = requests.get(f"http://localhost:5000/{command}")
+    r = requests.get(f"http://162.141.1.96:5000/{command}")
     if r.status_code == 200:
         print(f"Command {command} sent successfully.")
     else:

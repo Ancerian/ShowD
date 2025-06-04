@@ -94,7 +94,7 @@ while True:
         out_data[:,0] = out_data[:,0] - out_data[:,0]
         out_data[:,1] = out_data[:,1] - out_data[:,1]
 
-        prediction = model.predict(out_data)
+        prediction = model.predict(out_data[:,2:])
         # (array([2.]), array([[0.30498589, 0.19397866, 0.50103545]]))
         # print(prediction)
         # print the most likely class

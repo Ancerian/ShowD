@@ -10,7 +10,6 @@ def drone_up():
     CONTROL_QUEUE.put("UP")
     return "UP OK"
 
-
 @app.route("/down")
 def drone_down():
     CONTROL_QUEUE.put("DOWN")
@@ -26,6 +25,15 @@ def drone_backward():
     CONTROL_QUEUE.put("BACKWARD")
     return "BACKWARD OK"
 
+@app.route("/left")
+def drone_left():
+    CONTROL_QUEUE.put("LEFT")
+    return "LEFT OK"
+
+@app.route("/right")
+def drone_right():
+    CONTROL_QUEUE.put("RIGHT")
+    return "RIGHT OK"
 
 
 def start_server():

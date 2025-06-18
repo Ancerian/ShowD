@@ -3,11 +3,20 @@ import time
 import numpy as np
 import collections
 
-from djitellopy import Tello
+from djitellopy import Tello, TelloSwarm
+from mp.scan import search_tello
+
 from mp.run import recognize_action, classes
 
-tello = Tello()
+swarm = True
+
+if swarm:
+    tello = TelloSwarm.fromIps(search_tello())
+else:
+    tello = Tello()
+
 tello.connect(False)
+
 
 stream = cv2.VideoCapture(0)
 stream.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc(*'MJPG'))
@@ -19,25 +28,25 @@ height = 100
 def send_command(command):
     global height
     if command == "up":
-        if height < 100:
+        if height < 250:
             tello.move_up(20)
-            height += 50
+            height += 20
         else:
             print("Maximum height reached.")
     elif command == "down":
-        if height > 10:
+        if height > 40:
             tello.move_down(20)
-            height -= 50
+            height -= 20
         else:
             print("Already at minimum height.")
-    elif command == "forward":
-        tello.move_forward(100)
-    elif command == "backward":
-        tello.move_backward(100)
+    # elif command == "forward":
+    #     tello.move_forward(100)
+    # elif command == "backward":
+    #     tello.move_backward(100)
     elif command == "left":
-        tello.move_left(50)
+        tello.move_left(100)
     elif command == "right":
-        tello.move_right(50)
+        tello.move_right(100)
 
 predictions_buffer = []
 frames_to_accumulate = 10
@@ -69,7 +78,7 @@ try:
         if cv2.waitKey(1) == ord('q'):
             break
 
-        time.sleep(0.1)
+        time.sleep(0.025)
         
 except KeyboardInterrupt:
     tello.land()

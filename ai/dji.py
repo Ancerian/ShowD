@@ -8,22 +8,11 @@ from mp.scan import search_tello
 
 from mp.run import recognize_action, classes
 
-swarm = True
-
-if swarm:
-    tello = TelloSwarm.fromIps(search_tello())
-else:
-    tello = Tello()
-
-tello.connect(False)
-
-
-stream = cv2.VideoCapture(0)
-stream.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc(*'MJPG'))
-stream.set(3, 640)
-stream.set(4, 480)
-
-height = 100
+from PyQt5.QtWidgets import (
+    QApplication, QLabel, QWidget, QVBoxLayout, QHBoxLayout, QFrame, QSizePolicy
+)
+from PyQt5.QtCore import QTimer, Qt
+from PyQt5.QtGui import QImage, QPixmap, QFont, QColor, QPalette
 
 def send_command(command):
     global height
@@ -48,39 +37,65 @@ def send_command(command):
     elif command == "right":
         tello.move_right(100)
 
-predictions_buffer = []
-frames_to_accumulate = 10
+if __name__ == "__main__":
+    swarm = False
 
-tello.takeoff()
+    if swarm:
+        tello = TelloSwarm.fromIps(search_tello())
+    else:
+        tello = Tello() #"10.240.123.177")
 
-try:
+    print("Connect...")
+    tello.connect(False)
+    print("Connected")
 
-    while True:
-        (grabbed, frame) = stream.read()
+    print("Starting stream...")
+    stream = cv2.VideoCapture(0)
+    # stream.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc(*'MJPG'))
+    # stream.set(3, 640)
+    # stream.set(4, 480)
+    print("Started")
 
-        frame = frame.copy()
-        frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        r = recognize_action(frame_rgb)
-        if r:
-            prediction, frame_rgb = r
+    if not stream.isOpened():
+        print("Cannot open camera")
+        exit()
 
-            predicted = classes[int(prediction[0][0])]
-            predictions_buffer.append(predicted)
+    height = 100
 
-            if len(predictions_buffer) == frames_to_accumulate:
-                most_common = collections.Counter(predictions_buffer).most_common(1)[0][0]
-                send_command(most_common)
-                predictions_buffer = []
+    predictions_buffer = []
+    frames_to_accumulate = 10
 
-        frame = cv2.cvtColor(frame_rgb, cv2.COLOR_RGB2BGR)
-        cv2.imshow('Object detector', frame)
+    print("Take off!")
+    tello.takeoff()
 
-        if cv2.waitKey(1) == ord('q'):
-            break
+    try:
 
-        time.sleep(0.025)
-        
-except KeyboardInterrupt:
-    tello.land()
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+        while True:
+            (grabbed, frame) = stream.read()
+
+            frame = frame.copy()
+            frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+            r = recognize_action(frame_rgb)
+            if r:
+                prediction, frame_rgb = r
+
+                predicted = classes[int(prediction[0][0])]
+                predictions_buffer.append(predicted)
+
+                if len(predictions_buffer) == frames_to_accumulate:
+                    most_common = collections.Counter(predictions_buffer).most_common(1)[0][0]
+                    send_command(most_common)
+                    predictions_buffer = []
+
+            frame = cv2.cvtColor(frame_rgb, cv2.COLOR_RGB2BGR)
+            cv2.imshow('Object detector', frame)
+
+            if cv2.waitKey(1) == ord('q'):
+                break
+
+            time.sleep(0.025)
+            
+    except KeyboardInterrupt:
+        tello.land()
+        cv2.waitKey(0)
+        cv2.destroyAllWindows()

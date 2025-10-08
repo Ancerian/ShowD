@@ -21,7 +21,7 @@ def search_tello():
         return False
 
 
-    def scan_ips(prefix='192.168.35.'):
+    def scan_ips(prefix='172.20.10.'):
         open_ips = []
         for i in range(1, 255):
             ip = f"{prefix}{i}"

@@ -1,8 +1,8 @@
-from djitellopy_webots import Tello
+from djitellopy import Tello
 
 if __name__ == "__main__":
     tello = Tello()
-    tello.connect()
+    tello.connect(False)
     tello.takeoff()
     tello.move_up(50)
     tello.move_forward(100)

@@ -4,3 +4,4 @@ mediapipe
 orange3
 djitellopy
 numpy
+PyQt5

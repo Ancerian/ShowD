@@ -264,12 +264,16 @@ if __name__ == "__main__":
         def __init__(self):
             super().__init__()
             self.setWindowTitle("Вибір режиму")
-            self.setFixedSize(480, 390)
+            self.resize(480, 390)
+            self.setMinimumSize(400, 350)
+
+            # Стиль
             palette = self.palette()
             palette.setColor(QPalette.Window, QColor("#f0f0f0"))
             self.setPalette(palette)
             self.setAutoFillBackground(True)
 
+            # Заголовок
             label = QLabel("Оберіть режим роботи:")
             label.setFont(QFont("Segoe UI", 20, QFont.Bold))
             label.setAlignment(Qt.AlignCenter)
@@ -285,6 +289,7 @@ if __name__ == "__main__":
             self.devices_list.setAlignment(Qt.AlignLeft | Qt.AlignTop)
             self.refresh_devices()
 
+            # Кнопки вибору режиму
             btn_drone = QPushButton("З дроном")
             btn_drone.setStyleSheet("font-size: 20px; background: #27ae60; color: white; border-radius: 10px; padding: 12px 0; font-weight: bold;")
     
@@ -293,6 +298,11 @@ if __name__ == "__main__":
     
             btn_nodrone = QPushButton("Без дрона")
             btn_nodrone.setStyleSheet("font-size: 20px; background: #2980b9; color: white; border-radius: 10px; padding: 12px 0; font-weight: bold;")
+
+            btn_drone.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+            btn_swarm.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+            btn_nodrone.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+
 
             btn_drone.clicked.connect(self.start_with_drone)
             btn_swarm.clicked.connect(self.start_with_swarm)
@@ -311,10 +321,17 @@ if __name__ == "__main__":
             vbox.addWidget(self.devices_list)
             vbox.addWidget(btn_refresh)
             vbox.addSpacing(8)
+            vbox.addStretch()  
             vbox.addWidget(btn_drone)
             vbox.addWidget(btn_swarm)
             vbox.addWidget(btn_nodrone)
             self.setLayout(vbox)
+
+
+            #поднял окно
+            self.main.raise_()
+            self.main.activateWindow()
+
 
         def refresh_devices(self):
             try:
@@ -330,16 +347,22 @@ if __name__ == "__main__":
             self.hide()
             self.main = MainWindow(with_drone=True)
             self.main.show()
+            self.main.raise_()
+            self.main.activateWindow()
 
         def start_with_swarm(self):
             self.hide()
             self.main = MainWindow(with_drone=True, with_swarm=True)
             self.main.show()
+            self.main.raise_()
+            self.main.activateWindow()
 
         def start_without_drone(self):
             self.hide()
             self.main = MainWindow(with_drone=False)
             self.main.show()
+            self.main.raise_()
+            self.main.activateWindow()
 
     app = QApplication(sys.argv)
     start = StartWindow()

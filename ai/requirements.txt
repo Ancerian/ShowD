@@ -3,3 +3,4 @@ opencv-python==4.11.0.86
 mediapipe
 orange3
 djitellopy
+numpy

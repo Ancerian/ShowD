@@ -165,7 +165,7 @@ class MainWindow(QMainWindow):
         self.land_button = None
         self.with_drone = with_drone
         if self.with_drone:
-            self.land_button = QPushButton("Land (Посадить дрона)")
+            self.land_button = QPushButton("Land (Посадити дрона)")
             self.land_button.setStyleSheet("font-size: 22px; background: #e74c3c; color: white; border-radius: 10px; padding: 12px 0; font-weight: bold;")
             self.land_button.setMinimumHeight(48)
             self.land_button.clicked.connect(self.land_drone)
@@ -236,7 +236,7 @@ class MainWindow(QMainWindow):
 
     def land_drone(self):
         self.tello_control.add_command("land")
-        QMessageBox.information(self, "Дрон", "Дрон посажен.")
+        QMessageBox.information(self, "Дрон", "Дрон посаджено.")
         # закрити вікно
         self.close()
 
@@ -263,20 +263,20 @@ if __name__ == "__main__":
     class StartWindow(QWidget):
         def __init__(self):
             super().__init__()
-            self.setWindowTitle("Выбор режима")
+            self.setWindowTitle("Вибір режиму")
             self.setFixedSize(480, 390)
             palette = self.palette()
             palette.setColor(QPalette.Window, QColor("#f0f0f0"))
             self.setPalette(palette)
             self.setAutoFillBackground(True)
 
-            label = QLabel("Выберите режим работы:")
+            label = QLabel("Оберіть режим роботи:")
             label.setFont(QFont("Segoe UI", 20, QFont.Bold))
             label.setAlignment(Qt.AlignCenter)
             label.setStyleSheet("color: #1a237e; margin-bottom: 12px;")
 
             # Список устройств
-            self.devices_label = QLabel("Доступные устройства:")
+            self.devices_label = QLabel("Доступні пристрої:")
             self.devices_label.setFont(QFont("Segoe UI", 13, QFont.Bold))
             self.devices_label.setStyleSheet("color: #333; margin-top: 8px; margin-bottom: 2px;")
             self.devices_list = QLabel()
@@ -285,10 +285,10 @@ if __name__ == "__main__":
             self.devices_list.setAlignment(Qt.AlignLeft | Qt.AlignTop)
             self.refresh_devices()
 
-            btn_drone = QPushButton("С дроном")
+            btn_drone = QPushButton("З дроном")
             btn_drone.setStyleSheet("font-size: 20px; background: #27ae60; color: white; border-radius: 10px; padding: 12px 0; font-weight: bold;")
     
-            btn_swarm = QPushButton("С роем дроном")
+            btn_swarm = QPushButton("З роєм дронів")
             btn_swarm.setStyleSheet("font-size: 20px; background: #27ae60; color: white; border-radius: 10px; padding: 12px 0; font-weight: bold;")
     
             btn_nodrone = QPushButton("Без дрона")
@@ -299,7 +299,7 @@ if __name__ == "__main__":
             btn_nodrone.clicked.connect(self.start_without_drone)
 
             # Кнопка обновления списка
-            btn_refresh = QPushButton("Обновить список")
+            btn_refresh = QPushButton("Оновити список")
             btn_refresh.setStyleSheet("font-size: 14px; background: #b2becd; color: #222; border-radius: 8px; padding: 4px 0;")
             btn_refresh.clicked.connect(self.refresh_devices)
 
@@ -320,11 +320,11 @@ if __name__ == "__main__":
             try:
                 ips = search_tello()
                 if not ips:
-                    self.devices_list.setText("Не найдено ни одного устройства.")
+                    self.devices_list.setText("Не знайдено жодного пристрою.")
                 else:
                     self.devices_list.setText("\n".join(str(ip) for ip in ips))
             except Exception as e:
-                self.devices_list.setText(f"Ошибка поиска: {e}")
+                self.devices_list.setText(f"Помилка пошуку: {e}")
 
         def start_with_drone(self):
             self.hide()

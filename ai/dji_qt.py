@@ -11,7 +11,7 @@ from mp.run import recognize_action, classes
 
 from PyQt5.QtWidgets import (
     QApplication, QLabel, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
-    QFrame, QSizePolicy, QPushButton, QMessageBox, QStatusBar, QStyle
+    QFrame, QSizePolicy, QPushButton, QMessageBox, QStatusBar, QStyle, QFormLayout, QLineEdit, QSlider
 )
 from PyQt5.QtCore import QTimer, Qt, QThread, pyqtSignal
 from PyQt5.QtGui import QImage, QPixmap, QFont, QColor, QPalette
@@ -27,6 +27,13 @@ class TelloControlThread(QThread):
         self.height = 100
         self.command_queue = Queue()
         self.running = True
+
+
+        #standard limits
+        self.max_height = 250
+        self.min_height = 40
+        self.move_step = 20
+        self.horizontal_step = 100
         
     def initialize_drone(self):
         try:
@@ -79,24 +86,24 @@ class TelloControlThread(QThread):
                     self.initialize_swarm()
                     self.command_executed.emit("Takeoff successful")
                 elif command == "up":
-                    if self.height < 250:
-                        self.tello.move_up(20)
-                        self.height += 20
+                    if self.height < self.max_height:
+                        self.tello.move_up(self.move_step)
+                        self.height += self.move_step
                         self.command_executed.emit("Moved up")
                     else:
                         self.error_occurred.emit("Maximum height reached")
                 elif command == "down":
-                    if self.height > 40:
-                        self.tello.move_down(20)
-                        self.height -= 20
+                    if self.height > self.min_height:
+                        self.tello.move_down(self.move_step)
+                        self.height -= self.move_step
                         self.command_executed.emit("Moved down")
                     else:
                         self.error_occurred.emit("Already at minimum height")
                 elif command == "left":
-                    self.tello.move_left(100)
+                    self.tello.move_left(self.horizontal_step)
                     self.command_executed.emit("Moved left")
                 elif command == "right":
-                    self.tello.move_right(100)
+                    self.tello.move_right(self.horizontal_step)
                     self.command_executed.emit("Moved right")
                 elif command == "land":
                     self.tello.land()
@@ -172,6 +179,7 @@ class MainWindow(QMainWindow):
 
         # Кнопка ⚙️ для перехода на следующее окно
         self.settings_button = QPushButton("⚙️")
+        self.settings_button.setToolTip("Настройки")
         self.settings_button.setStyleSheet("font-size: 24px; background: #3498db; border-radius: 10px; padding: 8px; font-weight: bold;")
         self.settings_button.setFixedSize(50, 50)
         self.settings_button.clicked.connect(self.open_settings_window)
@@ -207,7 +215,7 @@ class MainWindow(QMainWindow):
             else:
                 self.tello_control.add_command("takeoff")
     def open_settings_window(self):
-        self.settings_window = SettingsWindow()
+        self.settings_window = SettingsWindow(self.tello_control)
         self.settings_window.show()
         self.settings_window.raise_()
         self.settings_window.activateWindow()
@@ -270,46 +278,81 @@ class MainWindow(QMainWindow):
         event.accept()
 
 class SettingsWindow(QWidget):
-    def __init__(self):
+    def __init__(self, tello_control):
         super().__init__()
         self.setWindowTitle("Settings")
         self.resize(400, 300)
+        self.tello_control = tello_control
 
-        # Центрирование окна на экране
-        self.setGeometry(
-            QStyle.alignedRect(
-                Qt.LeftToRight,
-                Qt.AlignCenter,
-                self.size(),
-                QApplication.desktop().availableGeometry()
-            )
+        layout = QVBoxLayout()
+        form = QFormLayout()
+
+        def make_slider_input(label, min_val, max_val, current_val):
+            container = QHBoxLayout()
+
+            slider = QSlider(Qt.Horizontal)
+            slider.setMinimum(min_val)
+            slider.setMaximum(max_val)
+            slider.setValue(current_val)
+            slider.setTickPosition(QSlider.TicksBelow)
+            slider.setTickInterval((max_val - min_val) // 10)
+
+            input_box = QLineEdit(str(current_val))
+            input_box.setFixedWidth(60)
+            input_box.setAlignment(Qt.AlignCenter)
+
+            # Связь: ползунок → поле
+            slider.valueChanged.connect(lambda val: input_box.setText(str(val)))
+            # Связь: поле → ползунок
+            input_box.textChanged.connect(lambda text: slider.setValue(int(text)) if text.isdigit() else None)
+
+            container.addWidget(slider)
+            container.addWidget(input_box)
+            return container, slider, input_box
+
+        # Создаём все параметры
+        self.max_height_box, self.max_height_slider, self.max_height_input = make_slider_input(
+            "Макс. висота", 100, 500, self.tello_control.max_height
+        )
+        self.min_height_box, self.min_height_slider, self.min_height_input = make_slider_input(
+            "Мін. висота", 10, 200, self.tello_control.min_height
+        )
+        self.move_step_box, self.move_step_slider, self.move_step_input = make_slider_input(
+            "Крок вгору/вниз", 5, 100, self.tello_control.move_step
+        )
+        self.horizontal_step_box, self.horizontal_step_slider, self.horizontal_step_input = make_slider_input(
+            "Крок вліво/вправо", 10, 300, self.tello_control.horizontal_step
         )
 
-        # Основной layout
-        layout = QVBoxLayout()
-        layout.setContentsMargins(20, 20, 20, 20)
-        layout.setSpacing(20)
+        # Добавляем их в форму
+        form.addRow("Макс. висота:", self.max_height_box)
+        form.addRow("Мін. висота:", self.min_height_box)
+        form.addRow("Крок вгору/вниз:", self.move_step_box)
+        form.addRow("Крок вліво/вправо:", self.horizontal_step_box)
 
-        # Текст заголовка
-        label = QLabel("Это заглушка для окна настроек.")
-        label.setAlignment(Qt.AlignCenter)
-        label.setFont(QFont("Segoe UI", 14, QFont.Bold))
-        label.setStyleSheet("color: #333;")
-        layout.addWidget(label)
+        layout.addLayout(form)
 
-        # Кнопка возврата
-        back_button = QPushButton("Назад")
-        back_button.setStyleSheet("font-size: 18px; background: #e74c3c; color: white; border-radius: 10px; padding: 8px;")
-        back_button.clicked.connect(self.go_back)
-        layout.addWidget(back_button, alignment=Qt.AlignCenter)
+        # Кнопка сохранения
+        save_button = QPushButton("💾 Зберегти і вийти")
+        save_button.setStyleSheet("font-size: 18px; background: #27ae60; color: white; border-radius: 10px; padding: 8px;")
+        save_button.clicked.connect(self.apply_changes_and_close)
+        layout.addWidget(save_button, alignment=Qt.AlignCenter)
 
         self.setLayout(layout)
 
-    def go_back(self):
-        """Закрыть окно настроек и показать основное окно"""
+    def apply_changes_and_close(self):
+        """Применить изменения и закрыть окно"""
+        try:
+            self.tello_control.max_height = int(self.max_height_input.text())
+            self.tello_control.min_height = int(self.min_height_input.text())
+            self.tello_control.move_step = int(self.move_step_input.text())
+            self.tello_control.horizontal_step = int(self.horizontal_step_input.text())
+        except ValueError:
+            QMessageBox.warning(self, "Помилка", "Введіть лише числа.")
+            return
+
+        QMessageBox.information(self, "Збережено", "Параметри оновлено.")
         self.close()
-        if self.parent():
-            self.parent().show()
 if __name__ == "__main__":
     import sys
 

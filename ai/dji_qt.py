@@ -11,7 +11,7 @@ from mp.run import recognize_action, classes
 
 from PyQt5.QtWidgets import (
     QApplication, QLabel, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
-    QFrame, QSizePolicy, QPushButton, QMessageBox, QStatusBar
+    QFrame, QSizePolicy, QPushButton, QMessageBox, QStatusBar, QStyle
 )
 from PyQt5.QtCore import QTimer, Qt, QThread, pyqtSignal
 from PyQt5.QtGui import QImage, QPixmap, QFont, QColor, QPalette
@@ -170,6 +170,12 @@ class MainWindow(QMainWindow):
             self.land_button.setMinimumHeight(48)
             self.land_button.clicked.connect(self.land_drone)
 
+        # Кнопка ⚙️ для перехода на следующее окно
+        self.settings_button = QPushButton("⚙️")
+        self.settings_button.setStyleSheet("font-size: 24px; background: #3498db; border-radius: 10px; padding: 8px; font-weight: bold;")
+        self.settings_button.setFixedSize(50, 50)
+        self.settings_button.clicked.connect(self.open_settings_window)
+
         # Главный layout
         main_layout = QVBoxLayout()
         main_layout.setContentsMargins(32, 32, 32, 32)
@@ -178,6 +184,7 @@ class MainWindow(QMainWindow):
         main_layout.addWidget(self.text_label, stretch=1)
         if self.land_button:
             main_layout.addWidget(self.land_button, stretch=0)
+        main_layout.addWidget(self.settings_button, alignment=Qt.AlignRight)  # Кнопка справа
         self.central_widget.setLayout(main_layout)
 
         self.cap = cv2.VideoCapture(0)
@@ -199,7 +206,12 @@ class MainWindow(QMainWindow):
                 self.tello_control.add_command("takeoff_swarm")
             else:
                 self.tello_control.add_command("takeoff")
-
+    def open_settings_window(self):
+        self.settings_window = SettingsWindow()
+        self.settings_window.show()
+        self.settings_window.raise_()
+        self.settings_window.activateWindow()
+            
     def update_frame(self):
         ret, frame = self.cap.read()
         if not ret:
@@ -257,6 +269,47 @@ class MainWindow(QMainWindow):
                 pass
         event.accept()
 
+class SettingsWindow(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("Settings")
+        self.resize(400, 300)
+
+        # Центрирование окна на экране
+        self.setGeometry(
+            QStyle.alignedRect(
+                Qt.LeftToRight,
+                Qt.AlignCenter,
+                self.size(),
+                QApplication.desktop().availableGeometry()
+            )
+        )
+
+        # Основной layout
+        layout = QVBoxLayout()
+        layout.setContentsMargins(20, 20, 20, 20)
+        layout.setSpacing(20)
+
+        # Текст заголовка
+        label = QLabel("Это заглушка для окна настроек.")
+        label.setAlignment(Qt.AlignCenter)
+        label.setFont(QFont("Segoe UI", 14, QFont.Bold))
+        label.setStyleSheet("color: #333;")
+        layout.addWidget(label)
+
+        # Кнопка возврата
+        back_button = QPushButton("Назад")
+        back_button.setStyleSheet("font-size: 18px; background: #e74c3c; color: white; border-radius: 10px; padding: 8px;")
+        back_button.clicked.connect(self.go_back)
+        layout.addWidget(back_button, alignment=Qt.AlignCenter)
+
+        self.setLayout(layout)
+
+    def go_back(self):
+        """Закрыть окно настроек и показать основное окно"""
+        self.close()
+        if self.parent():
+            self.parent().show()
 if __name__ == "__main__":
     import sys
 
@@ -279,7 +332,7 @@ if __name__ == "__main__":
             label.setAlignment(Qt.AlignCenter)
             label.setStyleSheet("color: #1a237e; margin-bottom: 12px;")
 
-            # Список устройств
+            # Список пристроїв
             self.devices_label = QLabel("Доступні пристрої:")
             self.devices_label.setFont(QFont("Segoe UI", 13, QFont.Bold))
             self.devices_label.setStyleSheet("color: #333; margin-top: 8px; margin-bottom: 2px;")
@@ -328,9 +381,7 @@ if __name__ == "__main__":
             self.setLayout(vbox)
 
 
-            #поднял окно
-            self.main.raise_()
-            self.main.activateWindow()
+           
 
 
         def refresh_devices(self):
